@@ -17,7 +17,7 @@ import os
 import json
 import time
 import logging
-from datetime import date
+from datetime import date, timedelta
 
 import requests
 
@@ -86,6 +86,48 @@ def extract_revenue(records: list[dict]) -> tuple[int | None, str, str]:
     return None, "", ""
 
 
+def extract_net_income(records: list[dict]) -> int | None:
+    """
+    재무 레코드에서 당기순이익을 추출. CFS 우선 → OFS.
+    account_nm이 '당기순이익'으로 시작하는 항목을 사용.
+    """
+    for fs_div in ["CFS", "OFS"]:
+        for r in records:
+            if r.get("fs_div") == fs_div and r.get("account_nm", "").startswith("당기순이익"):
+                return parse_amount(r.get("thstrm_amount"))
+    return None
+
+
+# ---------------------------------------------------------------------------
+# 시가총액 (FinanceDataReader)
+# ---------------------------------------------------------------------------
+
+def _last_weekday() -> str:
+    """가장 최근 평일을 YYYYMMDD 형식으로 반환 (주말 실행 대비)."""
+    d = date.today()
+    while d.weekday() >= 5:
+        d -= timedelta(days=1)
+    return d.strftime("%Y%m%d")
+
+
+def fetch_marcap_dict() -> dict[str, int]:
+    """FinanceDataReader로 KRX 전 종목 시가총액 배치 조회. {stock_code: 시가총액_원}"""
+    try:
+        import FinanceDataReader as fdr
+        df = fdr.StockListing("KRX")
+        return {str(code): int(mc) for code, mc in zip(df["Code"], df["Marcap"]) if mc and mc > 0}
+    except Exception as e:
+        logger.warning(f"시가총액 배치 조회 오류: {e}")
+        return {}
+
+
+def calc_per(marcap: int | None, net_income_mn: int | None) -> float | None:
+    """PER = 시가총액 / 당기순이익. 순이익 0 이하이면 None."""
+    if not marcap or not net_income_mn or net_income_mn <= 0:
+        return None
+    return round(marcap / (net_income_mn * 1_000_000), 1)
+
+
 # ---------------------------------------------------------------------------
 # Per-item financials lookup
 # ---------------------------------------------------------------------------
@@ -93,7 +135,7 @@ def extract_revenue(records: list[dict]) -> tuple[int | None, str, str]:
 def get_revenue(api_key: str, corp_code: str, rcept_dt: str) -> dict:
     """
     공시일 기준 직전 사업연도부터 MAX_YEAR_FALLBACK년 전까지 순차 조회.
-    반환: {annual_revenue_mn, revenue_year, revenue_account, revenue_fs_div}
+    반환: {annual_revenue_mn, revenue_year, revenue_account, revenue_fs_div, net_income_mn}
     """
     base_year = int(rcept_dt[:4]) - 1   # 직전 사업연도
 
@@ -103,11 +145,13 @@ def get_revenue(api_key: str, corp_code: str, rcept_dt: str) -> dict:
             records = fetch_financial(api_key, corp_code, year)
             amount, account_nm, fs_div = extract_revenue(records)
             if amount:
+                net_income = extract_net_income(records)
                 return {
                     "annual_revenue_mn": round(amount / 1_000_000),
                     "revenue_year": year,
                     "revenue_account": account_nm,
                     "revenue_fs_div": fs_div,
+                    "net_income_mn": round(net_income / 1_000_000) if net_income is not None else None,
                 }
         except Exception as e:
             logger.warning(f"    재무조회 오류 ({year}): {e}")
@@ -118,6 +162,7 @@ def get_revenue(api_key: str, corp_code: str, rcept_dt: str) -> dict:
         "revenue_year": None,
         "revenue_account": None,
         "revenue_fs_div": None,
+        "net_income_mn": None,
     }
 
 
@@ -138,6 +183,10 @@ def process_financials(items: list[dict], api_key: str) -> list[dict]:
     total_include = sum(1 for i in items if i.get("category") == "include")
     done = 0
 
+    logger.info("시가총액 배치 조회 중 (FinanceDataReader)…")
+    marcap_dict = fetch_marcap_dict()
+    logger.info(f"시가총액 로드: {len(marcap_dict)}종목")
+
     for item in items:
         if item.get("category") != "include":
             results.append({
@@ -146,31 +195,38 @@ def process_financials(items: list[dict], api_key: str) -> list[dict]:
                 "revenue_year": None,
                 "revenue_account": None,
                 "revenue_fs_div": None,
+                "net_income_mn": None,
                 "ratio_to_revenue_pct": None,
+                "per": None,
             })
             continue
 
         done += 1
         corp_name = item.get("corp_name", "")
         corp_code = item.get("corp_code", "")
-        rcept_dt = item.get("rcept_dt", "")
+        rcept_dt  = item.get("rcept_dt", "")
+        stock_code = item.get("stock_code", "")
 
         logger.info(f"[{done}/{total_include}] {corp_name} ({corp_code}) rcept_dt={rcept_dt}")
 
-        rev = get_revenue(api_key, corp_code, rcept_dt)
-
+        rev   = get_revenue(api_key, corp_code, rcept_dt)
         ratio = calc_ratio(item.get("invest_amount_mn"), rev.get("annual_revenue_mn"))
+
+        marcap = marcap_dict.get(stock_code)
+        per    = calc_per(marcap, rev.get("net_income_mn"))
+
         if ratio is None:
-            logger.warning(f"  → 매출 없음 또는 금액 미확인 (ratio=N/A)")
+            logger.warning("  → 매출 없음 또는 금액 미확인 (ratio=N/A)")
         else:
             logger.info(
-                f"  → 매출 {rev['annual_revenue_mn']:,}백만원 ({rev['revenue_year']} {rev['revenue_fs_div']} {rev['revenue_account']}) / 비율 {ratio}%"
+                f"  → 매출 {rev['annual_revenue_mn']:,}백만원 / 비율 {ratio}% / PER {per}x"
             )
 
         results.append({
             **item,
             **rev,
             "ratio_to_revenue_pct": ratio,
+            "per": per,
         })
 
     return results
@@ -211,8 +267,12 @@ if __name__ == "__main__":
     include_done = [r for r in results if r.get("category") == "include"]
     with_ratio   = [r for r in include_done if r.get("ratio_to_revenue_pct") is not None]
     no_revenue   = [r for r in include_done if r.get("annual_revenue_mn") is None]
+    with_per     = [r for r in include_done if r.get("per") is not None]
 
-    logger.info(f"완료: include {len(include_done)}건 / 비율계산 {len(with_ratio)}건 / 매출없음 {len(no_revenue)}건")
+    logger.info(
+        f"완료: include {len(include_done)}건 / 비율계산 {len(with_ratio)}건 / "
+        f"PER계산 {len(with_per)}건 / 매출없음 {len(no_revenue)}건"
+    )
 
     os.makedirs(os.path.dirname(args.output) or ".", exist_ok=True)
     output = {

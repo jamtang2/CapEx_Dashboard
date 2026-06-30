@@ -420,6 +420,7 @@
               <th data-col="purpose" class="col-purpose" style="cursor:default">목적</th>
               <th data-col="invest_amount_mn">투자금액<span class="sort-icon"></span></th>
               <th data-col="annual_revenue_mn">매출액<span class="sort-icon"></span></th>
+              <th data-col="per">PER<span class="sort-icon"></span></th>
               <th data-col="ratio_to_revenue_pct">매출비율<span class="sort-icon"></span></th>
               <th data-col="ratio_to_equity_pct">자기자본<span class="sort-icon"></span></th>
               <th data-col="end_date">완료예정<span class="sort-icon"></span></th>
@@ -573,7 +574,7 @@
 
     const tbody = document.getElementById('table-body');
     if (!rows.length) {
-      tbody.innerHTML = '<tr><td colspan="11" class="no-data">조건에 맞는 항목이 없습니다</td></tr>';
+      tbody.innerHTML = '<tr><td colspan="12" class="no-data">조건에 맞는 항목이 없습니다</td></tr>';
       return;
     }
 
@@ -593,6 +594,7 @@
         <td class="col-purpose">${r.purpose ? r.purpose.slice(0, 60) + (r.purpose.length > 60 ? '…' : '') : '—'}</td>
         <td class="col-amount">${fmtAmount(r.invest_amount_mn)}</td>
         <td class="col-amount">${fmtAmount(r.annual_revenue_mn)}</td>
+        <td class="col-ratio">${r.per != null ? r.per.toFixed(1) + 'x' : '<span style="color:var(--text-dim)">—</span>'}</td>
         ${ratioCell}
         <td class="col-ratio">${r.ratio_to_equity_pct != null ? r.ratio_to_equity_pct.toFixed(1) + '%' : '<span style="color:var(--text-dim)">—</span>'}</td>
         <td class="col-date">${fmtDate(r.end_date)}</td>

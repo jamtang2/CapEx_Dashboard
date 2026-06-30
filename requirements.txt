@@ -2,3 +2,4 @@ requests>=2.32
 python-dateutil>=2.9
 anthropic>=0.40
 xmltodict>=0.14
+FinanceDataReader>=0.9

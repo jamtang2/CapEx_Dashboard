@@ -33,7 +33,9 @@ UPDATABLE_FIELDS = [
     "revenue_year",
     "revenue_account",
     "revenue_fs_div",
+    "net_income_mn",
     "ratio_to_revenue_pct",
+    "per",
 ]
 
 logging.basicConfig(
@@ -92,8 +94,10 @@ def build_capex_item(item: dict) -> dict:
         "revenue_year":           item.get("revenue_year"),
         "revenue_account":        item.get("revenue_account"),
         "revenue_fs_div":         item.get("revenue_fs_div"),
+        "net_income_mn":          item.get("net_income_mn"),
         "ratio_to_revenue_pct":   item.get("ratio_to_revenue_pct"),
         "ratio_to_equity_pct":    item.get("ratio_to_equity_pct"),
+        "per":                    item.get("per"),
         "purpose":                item.get("purpose"),
         "start_date":             item.get("start_date"),
         "end_date":               item.get("end_date"),
