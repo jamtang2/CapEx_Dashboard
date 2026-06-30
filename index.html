@@ -1,0 +1,763 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CapEx Scanner — 설비투자 공시 대시보드</title>
+  <style>
+    :root {
+      --bg:         #0d1117;
+      --bg-card:    #161b22;
+      --bg-card2:   #1c2128;
+      --bg-hover:   #21262d;
+      --border:     #30363d;
+      --text:       #e6edf3;
+      --text-muted: #8b949e;
+      --text-dim:   #484f58;
+      --accent:     #58a6ff;
+      --green:      #3fb950;
+      --yellow:     #d29922;
+      --orange:     #f0883e;
+      --red:        #f85149;
+      --purple:     #bc8cff;
+      --r0:  transparent;
+      --r1:  rgba(210,153,34,0.15);
+      --r2:  rgba(240,136,62,0.25);
+      --r3:  rgba(248,81,73,0.30);
+      --r4:  rgba(248,81,73,0.50);
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--text);
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans KR', sans-serif;
+      font-size: 13px;
+      line-height: 1.5;
+      min-height: 100vh;
+    }
+
+    /* ── Layout ── */
+    .page-wrap { max-width: 1400px; margin: 0 auto; padding: 0 16px; }
+
+    header {
+      border-bottom: 1px solid var(--border);
+      padding: 14px 0 12px;
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+    header h1 { font-size: 18px; font-weight: 700; letter-spacing: -0.3px; }
+    header h1 span { color: var(--accent); }
+    #last-updated { font-size: 11px; color: var(--text-muted); }
+
+    /* ── KPI strip ── */
+    #kpi-strip {
+      display: grid;
+      grid-template-columns: repeat(4, 1fr);
+      gap: 12px;
+      padding: 16px 0;
+    }
+    .kpi-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 14px 16px;
+    }
+    .kpi-label { font-size: 11px; color: var(--text-muted); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+    .kpi-value { font-size: 22px; font-weight: 700; line-height: 1.2; }
+    .kpi-sub   { font-size: 11px; color: var(--text-muted); margin-top: 2px; }
+    .kpi-value.green  { color: var(--green); }
+    .kpi-value.yellow { color: var(--yellow); }
+    .kpi-value.accent { color: var(--accent); }
+    .kpi-value.orange { color: var(--orange); }
+
+    /* ── Tabs ── */
+    .tabs {
+      display: flex;
+      border-bottom: 1px solid var(--border);
+      gap: 0;
+      margin-bottom: 16px;
+    }
+    .tab-btn {
+      padding: 8px 18px;
+      font-size: 13px;
+      font-weight: 500;
+      color: var(--text-muted);
+      background: none;
+      border: none;
+      border-bottom: 2px solid transparent;
+      cursor: pointer;
+      transition: color 0.15s, border-color 0.15s;
+    }
+    .tab-btn:hover { color: var(--text); }
+    .tab-btn.active { color: var(--text); border-bottom-color: var(--accent); }
+    .tab-panel { display: none; }
+    .tab-panel.active { display: block; }
+
+    /* ── Table controls ── */
+    .controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    .ctrl-input {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 6px;
+      padding: 5px 10px;
+      color: var(--text);
+      font-size: 12px;
+      outline: none;
+      transition: border-color 0.15s;
+    }
+    .ctrl-input:focus { border-color: var(--accent); }
+    .ctrl-input::placeholder { color: var(--text-dim); }
+    #search-input { width: 200px; }
+    .ctrl-label { font-size: 11px; color: var(--text-muted); }
+    .ctrl-sep { width: 1px; height: 20px; background: var(--border); }
+
+    /* ── Table ── */
+    .table-wrap {
+      overflow-x: auto;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      white-space: nowrap;
+    }
+    thead th {
+      background: var(--bg-card);
+      padding: 9px 12px;
+      text-align: left;
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.4px;
+      border-bottom: 1px solid var(--border);
+      position: sticky;
+      top: 0;
+      z-index: 1;
+      cursor: pointer;
+      user-select: none;
+      white-space: nowrap;
+    }
+    thead th:hover { color: var(--text); }
+    thead th .sort-icon { margin-left: 4px; opacity: 0.4; }
+    thead th.sort-asc .sort-icon::after  { content: '↑'; }
+    thead th.sort-desc .sort-icon::after { content: '↓'; }
+    thead th:not(.sort-asc):not(.sort-desc) .sort-icon::after { content: '↕'; }
+
+    tbody tr {
+      border-bottom: 1px solid var(--border);
+      transition: background 0.1s;
+    }
+    tbody tr:last-child { border-bottom: none; }
+    tbody tr:hover { background: var(--bg-hover); }
+    tbody td {
+      padding: 8px 12px;
+      font-size: 12px;
+      color: var(--text);
+      vertical-align: middle;
+    }
+
+    .col-corp { min-width: 100px; max-width: 130px; font-weight: 600; }
+    .col-purpose { min-width: 160px; max-width: 260px; white-space: normal; color: var(--text-muted); font-size: 11px; }
+    .col-amount { text-align: right; font-variant-numeric: tabular-nums; }
+    .col-ratio  { text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+    .col-date   { font-size: 11px; color: var(--text-muted); }
+    .col-market, .col-revised { text-align: center; }
+
+    /* ratio heatmap tiers */
+    .r1 { background-color: var(--r1); }
+    .r2 { background-color: var(--r2); }
+    .r3 { background-color: var(--r3); }
+    .r4 { background-color: var(--r4); }
+
+    .badge {
+      display: inline-block;
+      padding: 1px 6px;
+      border-radius: 4px;
+      font-size: 10px;
+      font-weight: 600;
+      background: var(--bg-card2);
+      color: var(--text-muted);
+    }
+    .badge-rev  { background: rgba(188,140,255,0.18); color: var(--purple); }
+    .badge-mkt  { background: rgba(88,166,255,0.15); color: var(--accent); }
+    .badge-orp  { background: rgba(240,136,62,0.18); color: var(--orange); }
+
+    a.dart-link {
+      color: var(--accent);
+      text-decoration: none;
+      font-size: 11px;
+      padding: 2px 6px;
+      border: 1px solid rgba(88,166,255,0.3);
+      border-radius: 4px;
+      white-space: nowrap;
+    }
+    a.dart-link:hover { background: rgba(88,166,255,0.1); }
+
+    .no-data { padding: 40px; text-align: center; color: var(--text-muted); }
+
+    /* ── Calendar ── */
+    #cal-controls {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      align-items: center;
+      margin-bottom: 12px;
+    }
+    .cal-toggle-btn {
+      padding: 4px 10px;
+      border-radius: 4px;
+      border: 1px solid var(--border);
+      background: none;
+      color: var(--text-muted);
+      font-size: 11px;
+      cursor: pointer;
+    }
+    .cal-toggle-btn.active { background: var(--accent); border-color: var(--accent); color: #fff; }
+
+    #calendar-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 12px;
+    }
+    .month-card {
+      background: var(--bg-card);
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    .month-card.empty { opacity: 0.4; }
+    .month-header {
+      padding: 8px 12px;
+      background: var(--bg-card2);
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+    .month-label { font-weight: 700; font-size: 13px; }
+    .month-count { font-size: 11px; color: var(--text-muted); }
+    .month-badges { padding: 10px 12px; display: flex; flex-wrap: wrap; gap: 6px; }
+
+    .corp-badge {
+      position: relative;
+      display: inline-block;
+      padding: 3px 8px;
+      border-radius: 12px;
+      font-size: 11px;
+      font-weight: 500;
+      cursor: pointer;
+      border: 1px solid transparent;
+      transition: opacity 0.15s, border-color 0.15s;
+      background: var(--bg-card2);
+      color: var(--text);
+    }
+    .corp-badge:hover { border-color: var(--accent); opacity: 0.9; }
+    .corp-badge .badge-ratio {
+      font-size: 9px;
+      margin-left: 4px;
+      opacity: 0.75;
+    }
+
+    /* Ratio-colored badge backgrounds */
+    .corp-badge.r1 { background: rgba(210,153,34,0.20); }
+    .corp-badge.r2 { background: rgba(240,136,62,0.22); }
+    .corp-badge.r3 { background: rgba(248,81,73,0.22); }
+    .corp-badge.r4 { background: rgba(248,81,73,0.36); }
+
+    /* ── Tooltip ── */
+    .tooltip {
+      display: none;
+      position: absolute;
+      z-index: 100;
+      bottom: calc(100% + 6px);
+      left: 50%;
+      transform: translateX(-50%);
+      background: #1c2128;
+      border: 1px solid var(--border);
+      border-radius: 8px;
+      padding: 10px 12px;
+      min-width: 220px;
+      max-width: 320px;
+      white-space: normal;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.6);
+      pointer-events: none;
+    }
+    .corp-badge:hover .tooltip { display: block; }
+    .tooltip-corp { font-weight: 700; font-size: 12px; margin-bottom: 4px; }
+    .tooltip-purpose { color: var(--text-muted); font-size: 11px; margin-bottom: 6px; line-height: 1.4; }
+    .tooltip-meta { font-size: 11px; display: flex; flex-direction: column; gap: 2px; }
+    .tooltip-meta span { color: var(--text-muted); }
+    .tooltip-meta strong { color: var(--text); }
+
+    /* ── Footer ── */
+    footer {
+      border-top: 1px solid var(--border);
+      padding: 16px 0;
+      margin-top: 32px;
+      color: var(--text-dim);
+      font-size: 11px;
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+
+    /* ── Responsive ── */
+    @media (max-width: 768px) {
+      #kpi-strip { grid-template-columns: repeat(2, 1fr); }
+      .kpi-value  { font-size: 18px; }
+      .col-purpose, .col-date { display: none; }
+      #search-input { width: 140px; }
+    }
+    @media (max-width: 480px) {
+      #kpi-strip { grid-template-columns: 1fr 1fr; }
+      header h1 { font-size: 15px; }
+    }
+
+    /* ── Loading state ── */
+    #loading {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      height: 200px;
+      color: var(--text-muted);
+      font-size: 14px;
+      gap: 10px;
+    }
+    .spinner {
+      width: 18px; height: 18px;
+      border: 2px solid var(--border);
+      border-top-color: var(--accent);
+      border-radius: 50%;
+      animation: spin 0.7s linear infinite;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    .row-count { font-size: 11px; color: var(--text-muted); margin-left: auto; }
+  </style>
+</head>
+<body>
+<div class="page-wrap">
+
+  <header>
+    <h1>CapEx <span>Scanner</span></h1>
+    <div id="last-updated">—</div>
+  </header>
+
+  <div id="loading"><div class="spinner"></div>데이터 로딩 중…</div>
+
+  <div id="main-content" style="display:none">
+
+    <!-- KPI Strip -->
+    <div id="kpi-strip">
+      <div class="kpi-card">
+        <div class="kpi-label">설비투자 공시</div>
+        <div class="kpi-value green" id="kpi-total">—</div>
+        <div class="kpi-sub">include 총 건수</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">신규 (최근 7일)</div>
+        <div class="kpi-value accent" id="kpi-new">—</div>
+        <div class="kpi-sub" id="kpi-new-sub">—</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">정정공시</div>
+        <div class="kpi-value yellow" id="kpi-revised">—</div>
+        <div class="kpi-sub">매칭된 정정 건수</div>
+      </div>
+      <div class="kpi-card">
+        <div class="kpi-label">최고 매출비율</div>
+        <div class="kpi-value orange" id="kpi-top-ratio">—</div>
+        <div class="kpi-sub" id="kpi-top-name">—</div>
+      </div>
+    </div>
+
+    <!-- Tabs -->
+    <div class="tabs">
+      <button class="tab-btn active" data-tab="table">표</button>
+      <button class="tab-btn" data-tab="calendar">캘린더 (완료예정일)</button>
+    </div>
+
+    <!-- Table Panel -->
+    <div id="panel-table" class="tab-panel active">
+      <div class="controls">
+        <input id="search-input" class="ctrl-input" type="text" placeholder="회사명 검색…">
+        <div class="ctrl-sep"></div>
+        <span class="ctrl-label">매출비율</span>
+        <input id="ratio-min" class="ctrl-input" type="number" placeholder="최소 %" style="width:72px">
+        <span class="ctrl-label">~</span>
+        <input id="ratio-max" class="ctrl-input" type="number" placeholder="최대 %" style="width:72px">
+        <div class="ctrl-sep"></div>
+        <span class="ctrl-label">투자금액(억)</span>
+        <input id="amt-min" class="ctrl-input" type="number" placeholder="최소" style="width:72px">
+        <div class="ctrl-sep"></div>
+        <select id="mkt-filter" class="ctrl-input">
+          <option value="">전체 시장</option>
+          <option value="유">KOSPI (유)</option>
+          <option value="코">KOSDAQ (코)</option>
+          <option value="넥">코넥스 (넥)</option>
+        </select>
+        <span class="row-count" id="row-count"></span>
+      </div>
+
+      <div class="table-wrap">
+        <table id="capex-table">
+          <thead>
+            <tr>
+              <th data-col="corp_name">회사명<span class="sort-icon"></span></th>
+              <th data-col="purpose" class="col-purpose" style="cursor:default">목적</th>
+              <th data-col="invest_amount_mn">투자금액<span class="sort-icon"></span></th>
+              <th data-col="annual_revenue_mn">매출액<span class="sort-icon"></span></th>
+              <th data-col="ratio_to_revenue_pct">매출비율<span class="sort-icon"></span></th>
+              <th data-col="ratio_to_equity_pct">자기자본<span class="sort-icon"></span></th>
+              <th data-col="end_date">완료예정<span class="sort-icon"></span></th>
+              <th data-col="board_resolution_date">이사회<span class="sort-icon"></span></th>
+              <th data-col="market" class="col-market">시장<span class="sort-icon"></span></th>
+              <th style="cursor:default">상태</th>
+              <th style="cursor:default">원문</th>
+            </tr>
+          </thead>
+          <tbody id="table-body"></tbody>
+        </table>
+      </div>
+    </div>
+
+    <!-- Calendar Panel -->
+    <div id="panel-calendar" class="tab-panel">
+      <div id="cal-controls">
+        <span class="ctrl-label">표시 범위:</span>
+        <button class="cal-toggle-btn active" data-range="future">미래 완료예정</button>
+        <button class="cal-toggle-btn" data-range="past">과거</button>
+        <button class="cal-toggle-btn" data-range="all">전체</button>
+      </div>
+      <div id="calendar-grid"></div>
+    </div>
+
+  </div><!-- /#main-content -->
+
+  <footer>
+    <span>DART 신규시설투자 공시 자동 수집 · 분류 파이프라인</span>
+    <span>데이터: <a href="https://dart.fss.or.kr" style="color:var(--accent)" target="_blank">금융감독원 DART</a></span>
+  </footer>
+
+</div><!-- /.page-wrap -->
+
+<script>
+  /* ── Utilities ── */
+
+  function fmtAmount(mn) {
+    if (mn == null) return '<span style="color:var(--text-dim)">N/A</span>';
+    if (mn >= 100000) return `<strong>${(mn / 100000).toFixed(1)}조원</strong>`;
+    if (mn >= 100)    return `<strong>${Math.round(mn / 100).toLocaleString()}억원</strong>`;
+    return `${mn.toLocaleString()}백만원`;
+  }
+
+  function fmtRatio(pct) {
+    if (pct == null) return '<span style="color:var(--text-dim)">N/A</span>';
+    return `${pct.toFixed(1)}%`;
+  }
+
+  function fmtDate(d) {
+    if (!d) return '<span style="color:var(--text-dim)">—</span>';
+    return d;
+  }
+
+  function ratioClass(pct) {
+    if (pct == null || pct < 5)   return '';
+    if (pct < 15)  return 'r1';
+    if (pct < 30)  return 'r2';
+    if (pct < 60)  return 'r3';
+    return 'r4';
+  }
+
+  function rcept_dt_to_date(s) {
+    if (!s || s.length < 8) return null;
+    return new Date(`${s.slice(0,4)}-${s.slice(4,6)}-${s.slice(6,8)}`);
+  }
+
+  /* ── KPI ── */
+
+  function renderKPI(items, lastRun) {
+    const include = items.filter(i => i.category === 'include');
+    document.getElementById('kpi-total').textContent = include.length + '건';
+
+    const runDate = lastRun ? new Date(lastRun) : new Date();
+    const cutoff  = new Date(runDate.getTime() - 7 * 86400000);
+    const newItems = include.filter(i => {
+      const d = rcept_dt_to_date(i.rcept_dt);
+      return d && d >= cutoff;
+    });
+    document.getElementById('kpi-new').textContent = newItems.length + '건';
+    document.getElementById('kpi-new-sub').textContent =
+      lastRun ? `집계기준 ${lastRun.slice(0,10)}` : '';
+
+    const revised = include.filter(i => i.is_revised && !i.orphan_revision).length;
+    document.getElementById('kpi-revised').textContent = revised + '건';
+
+    const withRatio = include.filter(i => i.ratio_to_revenue_pct != null);
+    if (withRatio.length) {
+      const top = withRatio.reduce((a, b) =>
+        (a.ratio_to_revenue_pct > b.ratio_to_revenue_pct ? a : b));
+      document.getElementById('kpi-top-ratio').textContent = top.ratio_to_revenue_pct.toFixed(1) + '%';
+      document.getElementById('kpi-top-name').textContent = top.corp_name;
+    }
+  }
+
+  /* ── Table ── */
+
+  let allRows = [];
+  let sortCol = 'ratio_to_revenue_pct';
+  let sortDir = -1; // -1=desc, 1=asc
+
+  function sortValue(row, col) {
+    const v = row[col];
+    if (v == null) return (sortDir === -1 ? -Infinity : Infinity);
+    return v;
+  }
+
+  function applySort() {
+    allRows.sort((a, b) => {
+      const va = sortValue(a, sortCol);
+      const vb = sortValue(b, sortCol);
+      if (typeof va === 'string') return sortDir * va.localeCompare(vb, 'ko');
+      return sortDir * (vb - va) * -1; // desc by default for numbers → negate
+    });
+  }
+
+  function applyFilters() {
+    const search   = document.getElementById('search-input').value.trim().toLowerCase();
+    const ratioMin = parseFloat(document.getElementById('ratio-min').value) || 0;
+    const ratioMax = parseFloat(document.getElementById('ratio-max').value) || Infinity;
+    const amtMin   = parseFloat(document.getElementById('amt-min').value)   || 0;
+    const mkt      = document.getElementById('mkt-filter').value;
+
+    const cutoffDate = new Date(Date.now() - 30 * 86400000).toISOString().slice(0, 10);
+
+    return allRows.filter(r => {
+      if (r.end_date && r.end_date < cutoffDate) return false;
+      if (search && !r.corp_name.toLowerCase().includes(search)) return false;
+      const ratio = r.ratio_to_revenue_pct;
+      if (ratio != null && (ratio < ratioMin || ratio > ratioMax)) return false;
+      const amtAk = r.invest_amount_mn ? r.invest_amount_mn / 100 : 0;
+      if (amtAk < amtMin) return false;
+      if (mkt && r.market !== mkt) return false;
+      return true;
+    });
+  }
+
+  function renderTable() {
+    applySort();
+    const rows = applyFilters();
+
+    // Update sort arrows
+    document.querySelectorAll('thead th').forEach(th => {
+      th.classList.remove('sort-asc', 'sort-desc');
+      if (th.dataset.col === sortCol) {
+        th.classList.add(sortDir === 1 ? 'sort-asc' : 'sort-desc');
+      }
+    });
+
+    document.getElementById('row-count').textContent = `${rows.length}건`;
+
+    const tbody = document.getElementById('table-body');
+    if (!rows.length) {
+      tbody.innerHTML = '<tr><td colspan="11" class="no-data">조건에 맞는 항목이 없습니다</td></tr>';
+      return;
+    }
+
+    tbody.innerHTML = rows.map(r => {
+      const rc = ratioClass(r.ratio_to_revenue_pct);
+      const ratioCell = rc
+        ? `<td class="col-ratio ${rc}">${fmtRatio(r.ratio_to_revenue_pct)}</td>`
+        : `<td class="col-ratio">${fmtRatio(r.ratio_to_revenue_pct)}</td>`;
+
+      let statusBadges = '';
+      if (r.is_revised && !r.orphan_revision) statusBadges += '<span class="badge badge-rev">정정</span> ';
+      if (r.orphan_revision)                  statusBadges += '<span class="badge badge-orp">orphan</span> ';
+      if (!r.is_revised)                      statusBadges += '<span class="badge">원공시</span>';
+
+      return `<tr>
+        <td class="col-corp">${r.corp_name}</td>
+        <td class="col-purpose">${r.purpose ? r.purpose.slice(0, 60) + (r.purpose.length > 60 ? '…' : '') : '—'}</td>
+        <td class="col-amount">${fmtAmount(r.invest_amount_mn)}</td>
+        <td class="col-amount">${fmtAmount(r.annual_revenue_mn)}</td>
+        ${ratioCell}
+        <td class="col-ratio">${r.ratio_to_equity_pct != null ? r.ratio_to_equity_pct.toFixed(1) + '%' : '<span style="color:var(--text-dim)">—</span>'}</td>
+        <td class="col-date">${fmtDate(r.end_date)}</td>
+        <td class="col-date">${fmtDate(r.board_resolution_date)}</td>
+        <td class="col-market"><span class="badge badge-mkt">${r.market || '—'}</span></td>
+        <td>${statusBadges}</td>
+        <td><a class="dart-link" href="${r.dart_url}" target="_blank" rel="noopener">DART ↗</a></td>
+      </tr>`;
+    }).join('');
+  }
+
+  function bindTableControls() {
+    ['search-input','ratio-min','ratio-max','amt-min','mkt-filter'].forEach(id => {
+      document.getElementById(id).addEventListener('input', renderTable);
+    });
+
+    document.querySelectorAll('thead th[data-col]').forEach(th => {
+      th.addEventListener('click', () => {
+        const col = th.dataset.col;
+        if (col === 'purpose') return;
+        if (sortCol === col) {
+          sortDir *= -1;
+        } else {
+          sortCol = col;
+          sortDir = (col === 'corp_name' || col === 'market') ? 1 : -1;
+        }
+        renderTable();
+      });
+    });
+  }
+
+  /* ── Calendar ── */
+
+  let calendarData = {};
+  let calRange = 'future';
+
+  function renderCalendar() {
+    const today = new Date();
+    const thisMonth = today.toISOString().slice(0, 7);
+
+    let months = Object.keys(calendarData).sort();
+    if (calRange === 'future') {
+      months = months.filter(m => m >= thisMonth);
+    } else if (calRange === 'past') {
+      months = months.filter(m => m < thisMonth);
+    }
+
+    const grid = document.getElementById('calendar-grid');
+    if (!months.length) {
+      grid.innerHTML = '<div class="no-data" style="padding:40px">표시할 월이 없습니다.</div>';
+      return;
+    }
+
+    grid.innerHTML = months.map(month => {
+      const items = calendarData[month] || [];
+      const label = (() => {
+        const [y, m] = month.split('-');
+        const names = ['1월','2월','3월','4월','5월','6월','7월','8월','9월','10월','11월','12월'];
+        return `${y}년 ${names[parseInt(m,10)-1]}`;
+      })();
+
+      const badges = items.map(item => {
+        const rc = ratioClass(item.ratio_to_revenue_pct);
+        const amtFmt = item.invest_amount_mn != null
+          ? (item.invest_amount_mn >= 100
+              ? `${Math.round(item.invest_amount_mn/100).toLocaleString()}억원`
+              : `${item.invest_amount_mn}백만원`)
+          : 'N/A';
+        const ratioFmt = item.ratio_to_revenue_pct != null
+          ? item.ratio_to_revenue_pct.toFixed(1) + '%'
+          : 'N/A';
+        const purpose = (item.purpose || '').slice(0, 80);
+
+        return `<a class="corp-badge ${rc}" href="${item.dart_url}" target="_blank" rel="noopener">
+          ${item.corp_name}<span class="badge-ratio">${ratioFmt}</span>
+          <div class="tooltip">
+            <div class="tooltip-corp">${item.corp_name}</div>
+            <div class="tooltip-purpose">${purpose}${item.purpose && item.purpose.length > 80 ? '…' : ''}</div>
+            <div class="tooltip-meta">
+              <span>투자금액 <strong>${amtFmt}</strong></span>
+              <span>매출비율 <strong>${ratioFmt}</strong></span>
+            </div>
+          </div>
+        </a>`;
+      }).join('');
+
+      return `<div class="month-card">
+        <div class="month-header">
+          <span class="month-label">${label}</span>
+          <span class="month-count">${items.length}건</span>
+        </div>
+        <div class="month-badges">${badges || '<span style="color:var(--text-dim);font-size:11px">항목 없음</span>'}</div>
+      </div>`;
+    }).join('');
+  }
+
+  function bindCalendarControls() {
+    document.querySelectorAll('.cal-toggle-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.cal-toggle-btn').forEach(b => b.classList.remove('active'));
+        btn.classList.add('active');
+        calRange = btn.dataset.range;
+        renderCalendar();
+      });
+    });
+  }
+
+  /* ── Tabs ── */
+
+  function bindTabs() {
+    document.querySelectorAll('.tab-btn').forEach(btn => {
+      btn.addEventListener('click', () => {
+        document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+        document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+        btn.classList.add('active');
+        document.getElementById('panel-' + btn.dataset.tab).classList.add('active');
+      });
+    });
+  }
+
+  /* ── Bootstrap ── */
+
+  async function init() {
+    try {
+      const [capexResp, calResp] = await Promise.all([
+        fetch('./data/capex.json'),
+        fetch('./data/calendar.json'),
+      ]);
+      const capexData    = await capexResp.json();
+      calendarData = await calResp.json();
+
+      const items   = capexData.items || [];
+      const include = items.filter(i => i.category === 'include');
+
+      // Populate table data
+      allRows = include;
+
+      // Last updated
+      if (capexData.last_run) {
+        const d = new Date(capexData.last_run);
+        document.getElementById('last-updated').textContent =
+          `마지막 업데이트: ${d.toLocaleDateString('ko-KR')} ${d.toLocaleTimeString('ko-KR', {hour:'2-digit',minute:'2-digit'})} UTC`;
+      }
+
+      renderKPI(items, capexData.last_run);
+
+      bindTableControls();
+      renderTable();
+
+      bindCalendarControls();
+      renderCalendar();
+
+      bindTabs();
+
+      document.getElementById('loading').style.display      = 'none';
+      document.getElementById('main-content').style.display = 'block';
+
+    } catch (err) {
+      document.getElementById('loading').innerHTML =
+        `<span style="color:var(--red)">데이터 로드 실패: ${err.message}</span>`;
+      console.error(err);
+    }
+  }
+
+  init();
+</script>
+</body>
+</html>

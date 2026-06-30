@@ -1,0 +1,19 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+
+# 파이프라인 중간 산출물 (최종 capex.json / calendar.json 만 커밋)
+data/candidates.json
+data/extracted.json
+data/classified.json
+data/financials.json
+
+# PRD 문서
+PRD/
+
+# OS
+.DS_Store
+Thumbs.db
