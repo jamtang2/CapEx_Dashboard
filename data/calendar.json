@@ -124,5 +124,15 @@
       "ratio_to_revenue_pct": 22.9,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630900397"
     }
+  ],
+  "2027-12": [
+    {
+      "corp_name": "나노팀",
+      "id": "01524118__orphan__20260703901034",
+      "purpose": "우레탄 생산 및 소화액 연구제조용",
+      "invest_amount_mn": 16703,
+      "ratio_to_revenue_pct": 41.4,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703901034"
+    }
   ]
 }
