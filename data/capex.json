@@ -38,7 +38,8 @@
       "id": "00111810__orphan__20260630801612",
       "is_revised": true,
       "orphan_revision": true,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": false
     },
     {
       "corp_code": "00427483",
@@ -69,7 +70,8 @@
       "id": "00427483__orphan__20260630801610",
       "is_revised": true,
       "orphan_revision": true,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": false
     },
     {
       "corp_code": "00102858",
@@ -100,7 +102,8 @@
       "id": "00102858__orphan__20260630801556",
       "is_revised": true,
       "orphan_revision": true,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": false
     },
     {
       "corp_code": "00138279",
@@ -131,7 +134,8 @@
       "id": "00138279__orphan__20260630801472",
       "is_revised": true,
       "orphan_revision": true,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": false
     },
     {
       "corp_code": "01562589",
@@ -162,7 +166,8 @@
       "id": "01562589__orphan__20260630801457",
       "is_revised": true,
       "orphan_revision": true,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": false
     },
     {
       "corp_code": "00159698",
@@ -193,7 +198,8 @@
       "id": "00159698__orphan__20260630801430",
       "is_revised": true,
       "orphan_revision": true,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": false
     },
     {
       "corp_code": "00161383",
@@ -224,7 +230,8 @@
       "id": "00161383__orphan__20260630801316",
       "is_revised": true,
       "orphan_revision": true,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": false
     },
     {
       "corp_code": "01326224",
@@ -255,7 +262,8 @@
       "id": "01326224__orphan__20260630900889",
       "is_revised": true,
       "orphan_revision": true,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": false
     },
     {
       "corp_code": "00362858",
@@ -286,7 +294,8 @@
       "id": "00362858__orphan__20260630900916",
       "is_revised": true,
       "orphan_revision": true,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": false
     },
     {
       "corp_code": "00545734",
@@ -317,7 +326,8 @@
       "id": "00545734__orphan__20260630900742",
       "is_revised": true,
       "orphan_revision": true,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": false
     },
     {
       "corp_code": "00106119",
@@ -348,7 +358,8 @@
       "id": "00106119__orphan__20260630800859",
       "is_revised": true,
       "orphan_revision": true,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": true
     },
     {
       "corp_code": "00964595",
@@ -379,7 +390,8 @@
       "id": "00964595__orphan__20260630900895",
       "is_revised": true,
       "orphan_revision": true,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": false
     },
     {
       "corp_code": "00106119",
@@ -410,7 +422,8 @@
       "id": "00106119__orphan__20260630800812",
       "is_revised": true,
       "orphan_revision": true,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": true
     },
     {
       "corp_code": "01243161",
@@ -441,7 +454,8 @@
       "id": "01243161__orphan__20260630900786",
       "is_revised": true,
       "orphan_revision": true,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": true
     },
     {
       "corp_code": "00447575",
@@ -472,7 +486,8 @@
       "id": "00447575__orphan__20260630900714",
       "is_revised": true,
       "orphan_revision": true,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": false
     },
     {
       "corp_code": "00106119",
@@ -503,7 +518,8 @@
       "id": "00106119__orphan__20260630800678",
       "is_revised": true,
       "orphan_revision": true,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": true
     },
     {
       "corp_code": "00654272",
@@ -534,7 +550,8 @@
       "id": "00654272__orphan__20260630900574",
       "is_revised": true,
       "orphan_revision": true,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": false
     },
     {
       "corp_code": "00495633",
@@ -565,7 +582,8 @@
       "id": "00495633__orphan__20260630900397",
       "is_revised": true,
       "orphan_revision": true,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": false
     },
     {
       "corp_code": "00258421",
@@ -596,7 +614,8 @@
       "id": "00258421__orphan__20260630900329",
       "is_revised": true,
       "orphan_revision": true,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": false
     },
     {
       "corp_code": "01524118",
@@ -627,7 +646,8 @@
       "id": "01524118__orphan__20260703901034",
       "is_revised": true,
       "orphan_revision": true,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": false
     },
     {
       "corp_code": "00674498",
@@ -658,7 +678,8 @@
       "id": "00674498__20260703900796",
       "is_revised": false,
       "orphan_revision": false,
-      "revisions": []
+      "revisions": [],
+      "is_trading_halted": false
     }
   ]
 }
