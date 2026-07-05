@@ -726,7 +726,7 @@
       const capexData    = await capexResp.json();
       calendarData = await calResp.json();
 
-      const items   = capexData.items || [];
+      const items   = (capexData.items || []).filter(i => !i.is_trading_halted);
       const include = items.filter(i => i.category === 'include');
 
       // Populate table data

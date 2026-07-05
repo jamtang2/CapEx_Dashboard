@@ -51,6 +51,11 @@ GitHub Actions (cron: 0 0 * * 6, = Sat 09:00 KST)
 - Ambiguous → LLM returns `{include: bool, reason: str, confidence: float}`
 - Call LLM only on ambiguous cases (cost control)
 
+### Trading-halt exclusion (`src/trading_status.py`)
+- Every M6 build run refreshes `is_trading_halted` on **all** items in `capex.json` (not just this week's new items), since a company's halt status can change independently of new disclosures.
+- Detection: `FinanceDataReader`'s KRX snapshot (`fdr.StockListing("KRX")`) — a stock with `Volume == Open == High == Low == 0` and `Close > 0` had no trades that session (long-term delisting-review halt like 금양, or a same-day circuit-breaker halt).
+- `index.html` filters out `is_trading_halted` items client-side before KPI/table/calendar rendering; the row itself is never deleted from `capex.json` so it reappears automatically once trading resumes.
+
 ### Revenue lookup (FR-4)
 - Use `fnlttSinglAcnt.json`, `reprt_code=11011` (annual), prior fiscal year
 - Prefer 연결(CFS); fall back to 별도(OFS); fall back to 영업수익 when 매출액 absent
@@ -94,6 +99,7 @@ GitHub Actions (cron: 0 0 * * 6, = Sat 09:00 KST)
     "classify_confidence": 0.96,
     "is_revised": false,
     "orphan_revision": false,
+    "is_trading_halted": false,
     "revisions": [],
     "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260612000123",
     "last_updated": "2026-06-29T00:00:00Z"
