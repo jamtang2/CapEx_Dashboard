@@ -1,98 +1,22 @@
 {
-  "2027-05": [
+  "2028-03": [
     {
-      "corp_name": "대웅",
-      "id": "00111810__orphan__20260630801612",
-      "purpose": "Neurotoxin 시장의 치료제 부문 진출을 통한 사업이익 극대화 및 생산능력 확보",
-      "invest_amount_mn": 101360,
-      "ratio_to_revenue_pct": 4.9,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630801612"
-    },
-    {
-      "corp_name": "대웅제약",
-      "id": "00427483__orphan__20260630801610",
-      "purpose": "Neurotoxin 시장의 치료제 부문 진출을 통한 사업이익 극대화 및 생산능력 확보",
-      "invest_amount_mn": 101360,
-      "ratio_to_revenue_pct": 6.5,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630801610"
-    }
-  ],
-  "2026-06": [
-    {
-      "corp_name": "고려아연",
-      "id": "00102858__orphan__20260630801556",
-      "purpose": "아연, 연 제련공정 후에 남은 부산물에서 추가 유가금속을 회수하는 6기의 퓨머 설비 중 1기의 퓨머 설비를 리사이클링 동 제련 설비로 개조하여,당사 동박제조 자회사인 케이잼의 6만톤 규모 생산 증설에 대비해 안정적 원료수급 도모",
-      "invest_amount_mn": 99500,
-      "ratio_to_revenue_pct": 0.6,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630801556"
+      "corp_name": "금호타이어",
+      "id": "00481454__orphan__20260708800763",
+      "purpose": "타이어 생산 시설 확대를 통한 경쟁력 강화",
+      "invest_amount_mn": 660917,
+      "ratio_to_revenue_pct": 14.1,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260708800763"
     }
   ],
   "2026-07": [
     {
-      "corp_name": "원바이오젠",
-      "id": "01326224__orphan__20260630900889",
-      "purpose": "생산 시설 확대를 통한 하이드로콜로이드 기반 제품의 생산량 증대로 매출 확대를 도모하기 위함",
-      "invest_amount_mn": 3606,
-      "ratio_to_revenue_pct": 10.2,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630900889"
-    },
-    {
-      "corp_name": "제이앤티씨",
-      "id": "00447575__orphan__20260630900714",
-      "purpose": "신규사업(HDD유리플래터) 양산을 위한 시설 및 설비투자 25년 4분기 ~ 26년 신규양산 예정제품 생산 Capa확보",
-      "invest_amount_mn": 55000,
-      "ratio_to_revenue_pct": 29.6,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630900714"
-    }
-  ],
-  "2027-06": [
-    {
-      "corp_name": "아미코젠",
-      "id": "00545734__orphan__20260630900742",
-      "purpose": "의약용 미생물 단백질(엔돌라이신) CGMP 제조시설 투자",
-      "invest_amount_mn": 11500,
-      "ratio_to_revenue_pct": 27.4,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630900742"
-    }
-  ],
-  "2026-08": [
-    {
-      "corp_name": "엔바이오니아",
-      "id": "00964595__orphan__20260630900895",
-      "purpose": "메타아라미드페이퍼 생산시설 증축 및 양산체제 구축",
-      "invest_amount_mn": 8229,
-      "ratio_to_revenue_pct": 57.6,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630900895"
-    }
-  ],
-  "2028-06": [
-    {
-      "corp_name": "램테크놀러지",
-      "id": "00654272__orphan__20260630900574",
-      "purpose": "기존제품 생산능력 향상 및 신규제품 생산시설확보",
-      "invest_amount_mn": 30000,
-      "ratio_to_revenue_pct": 70.3,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630900574"
-    }
-  ],
-  "2027-03": [
-    {
-      "corp_name": "율촌",
-      "id": "00495633__orphan__20260630900397",
-      "purpose": "상업생산 시작을 위한 조관 및 인발 양산라인 구축",
-      "invest_amount_mn": 18120,
-      "ratio_to_revenue_pct": 22.9,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630900397"
-    }
-  ],
-  "2027-12": [
-    {
-      "corp_name": "나노팀",
-      "id": "01524118__orphan__20260703901034",
-      "purpose": "우레탄 생산 및 소화액 연구제조용",
-      "invest_amount_mn": 16703,
-      "ratio_to_revenue_pct": 41.4,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260703901034"
+      "corp_name": "티에프이",
+      "id": "01035368__orphan__20260709900676",
+      "purpose": "사업확장에 따른 제품생산능력 확대",
+      "invest_amount_mn": 14300,
+      "ratio_to_revenue_pct": 12.8,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709900676"
     }
   ]
 }
