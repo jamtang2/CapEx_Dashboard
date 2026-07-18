@@ -1,22 +1,32 @@
 {
-  "2028-03": [
+  "2027-12": [
     {
-      "corp_name": "금호타이어",
-      "id": "00481454__orphan__20260708800763",
-      "purpose": "타이어 생산 시설 확대를 통한 경쟁력 강화",
-      "invest_amount_mn": 660917,
-      "ratio_to_revenue_pct": 14.1,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260708800763"
+      "corp_name": "안국약품",
+      "id": "00139205__20260714900728",
+      "purpose": "생산능력 증대를 위한 공장 증축",
+      "invest_amount_mn": 48480,
+      "ratio_to_revenue_pct": 15.8,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714900728"
     }
   ],
-  "2026-07": [
+  "2030-12": [
     {
-      "corp_name": "티에프이",
-      "id": "01035368__orphan__20260709900676",
-      "purpose": "사업확장에 따른 제품생산능력 확대",
-      "invest_amount_mn": 14300,
-      "ratio_to_revenue_pct": 12.8,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260709900676"
+      "corp_name": "녹십자",
+      "id": "00129679__20260716800838",
+      "purpose": "차세대 면역글로불린 제품 확장을 위한 신규 생산라인 투자",
+      "invest_amount_mn": 140000,
+      "ratio_to_revenue_pct": 7.0,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716800838"
+    }
+  ],
+  "2026-09": [
+    {
+      "corp_name": "드림텍",
+      "id": "00415646__20260716800110",
+      "purpose": "메모리 모듈 생산라인 증설에 따른 부대설비 구축",
+      "invest_amount_mn": 8838,
+      "ratio_to_revenue_pct": 0.7,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716800110"
     }
   ]
 }
