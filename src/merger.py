@@ -114,15 +114,28 @@ def build_capex_item(item: dict) -> dict:
 # Core merger
 # ---------------------------------------------------------------------------
 
-def merge(items: list[dict]) -> tuple[list[dict], dict]:
+def merge(items: list[dict], existing_items: list[dict] | None = None) -> tuple[list[dict], dict]:
     """
     시간순으로 정렬된 아이템 목록을 머징해 capex 리스트로 변환.
+
+    existing_items: 기존 capex.json의 items (누적 SSOT). 반드시 베이스로 시딩해야
+    과거에 쌓인 공시가 이번 실행의 신규/정정 항목만으로 덮어써지지 않는다.
+
     반환: (capex_items, stats)
     """
     items_sorted = sorted(items, key=lambda x: x.get("rcept_dt", ""))
 
     capex: dict[str, dict] = {}       # id → capex_item
     dedup_idx: dict[str, str] = {}    # dedup_key → id
+
+    # 기존 capex.json 항목을 베이스로 시딩 (과거 누적 데이터 보존)
+    for existing in existing_items or []:
+        item_id = existing.get("id")
+        if not item_id:
+            continue
+        capex[item_id] = existing
+        for k in dedup_keys(existing):
+            dedup_idx.setdefault(k, item_id)
 
     stats = {"new": 0, "updated": 0, "orphan": 0}
 
@@ -134,17 +147,22 @@ def merge(items: list[dict]) -> tuple[list[dict], dict]:
         if not is_rev:
             # ── 원공시 신규 등재 ──────────────────────────────────
             item_id = f"{corp}__{rno}"
-            entry = {
-                **build_capex_item(item),
-                "id":               item_id,
-                "is_revised":       False,
-                "orphan_revision":  False,
-                "revisions":        [],
-            }
+            prior = capex.get(item_id)
+            if prior:
+                # 동일 rcept_no 재처리 (idempotent 재실행) → revisions 등 누적 이력 보존
+                entry = {**prior, **build_capex_item(item), "id": item_id}
+            else:
+                entry = {
+                    **build_capex_item(item),
+                    "id":               item_id,
+                    "is_revised":       False,
+                    "orphan_revision":  False,
+                    "revisions":        [],
+                }
+                stats["new"] += 1
             capex[item_id] = entry
             for k in dedup_keys(item):
                 dedup_idx.setdefault(k, item_id)   # 먼저 등록된 원공시 우선
-            stats["new"] += 1
 
         else:
             # ── 정정공시 매칭 시도 ────────────────────────────────
@@ -180,18 +198,23 @@ def merge(items: list[dict]) -> tuple[list[dict], dict]:
             else:
                 # 매칭 실패 → orphan 신규 등재
                 item_id = f"{corp}__orphan__{rno}"
-                entry = {
-                    **build_capex_item(item),
-                    "id":               item_id,
-                    "is_revised":       True,
-                    "orphan_revision":  True,
-                    "revisions":        [],
-                }
+                prior = capex.get(item_id)
+                if prior:
+                    # 동일 rcept_no 재처리 (idempotent 재실행) → revisions 등 누적 이력 보존
+                    entry = {**prior, **build_capex_item(item), "id": item_id}
+                else:
+                    entry = {
+                        **build_capex_item(item),
+                        "id":               item_id,
+                        "is_revised":       True,
+                        "orphan_revision":  True,
+                        "revisions":        [],
+                    }
+                    stats["orphan"] += 1
+                    logger.debug(f"  orphan: {item.get('corp_name')} {rno}")
                 capex[item_id] = entry
                 for k in dedup_keys(item):
                     dedup_idx.setdefault(k, item_id)
-                stats["orphan"] += 1
-                logger.debug(f"  orphan: {item.get('corp_name')} {rno}")
 
     return list(capex.values()), stats
 
@@ -214,7 +237,14 @@ if __name__ == "__main__":
     items = data["items"]
     logger.info(f"입력: {len(items)}건 (include={data.get('include', '?')})")
 
-    capex_items, stats = merge(items)
+    existing_items: list[dict] = []
+    if os.path.exists(args.output):
+        with open(args.output, encoding="utf-8") as f:
+            existing_data = json.load(f)
+        existing_items = existing_data.get("items", [])
+    logger.info(f"기존 누적: {len(existing_items)}건 (베이스로 병합)")
+
+    capex_items, stats = merge(items, existing_items)
 
     include_items = [i for i in capex_items if i.get("category") == "include"]
     revised       = sum(1 for i in capex_items if i.get("is_revised"))
