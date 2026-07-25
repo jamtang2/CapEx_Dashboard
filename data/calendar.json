@@ -483,6 +483,22 @@
       "invest_amount_mn": 48480,
       "ratio_to_revenue_pct": 15.8,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260714900728"
+    },
+    {
+      "corp_name": "대덕",
+      "id": "00109189__20260720800615",
+      "purpose": "반도체 시장수요 증가에 대응하기 위한 생산 설비 및 부대 시설 투자",
+      "invest_amount_mn": 497000,
+      "ratio_to_revenue_pct": 35.9,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720800615"
+    },
+    {
+      "corp_name": "대덕전자",
+      "id": "01478712__20260720800599",
+      "purpose": "반도체 시장수요 증가에 대응하기 위한 생산 설비 및 부대 시설 투자",
+      "invest_amount_mn": 497000,
+      "ratio_to_revenue_pct": 46.7,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720800599"
     }
   ],
   "2027-01": [
@@ -542,9 +558,9 @@
       "corp_name": "영진약품",
       "id": "00141149__orphan__20250725800806",
       "purpose": "설비 노후화 개선 및 생산CAPA 확대",
-      "invest_amount_mn": 22575,
+      "invest_amount_mn": 22975,
       "ratio_to_revenue_pct": 9.0,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250725800806"
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260724800904"
     }
   ],
   "2025-10": [
@@ -889,6 +905,22 @@
       "invest_amount_mn": 48870,
       "ratio_to_revenue_pct": 16.9,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251014800549"
+    },
+    {
+      "corp_name": "SK스퀘어",
+      "id": "01596425__20260722800836",
+      "purpose": "글로벌 AI 메모리 수요 대응을 위한 청주 생산거점 확보",
+      "invest_amount_mn": 7093100,
+      "ratio_to_revenue_pct": 502.5,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722800836"
+    },
+    {
+      "corp_name": "SK하이닉스",
+      "id": "00164779__20260722800829",
+      "purpose": "글로벌 AI 메모리 수요 대응을 위한 청주 생산거점 확보",
+      "invest_amount_mn": 7093100,
+      "ratio_to_revenue_pct": 7.3,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260722800829"
     }
   ],
   "2030-12": [
@@ -965,14 +997,6 @@
       "invest_amount_mn": 41728,
       "ratio_to_revenue_pct": 23.7,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251226900325"
-    },
-    {
-      "corp_name": "에이펙스인텍",
-      "id": "00832700__orphan__20260202601274",
-      "purpose": "신규사업 및 기존사업 증설을 위한 공장 신축",
-      "invest_amount_mn": 6743,
-      "ratio_to_revenue_pct": null,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260202601274"
     }
   ],
   "2025-11": [
@@ -1048,7 +1072,7 @@
       "purpose": "서탄공장 생산능력 증대를 위한 제조시설 구축",
       "invest_amount_mn": 104298,
       "ratio_to_revenue_pct": 6.9,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260625800456"
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800383"
     }
   ],
   "2031-06": [
@@ -1487,6 +1511,16 @@
       "invest_amount_mn": 30000,
       "ratio_to_revenue_pct": 70.3,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630900574"
+    }
+  ],
+  "2029-01": [
+    {
+      "corp_name": "OCI홀딩스",
+      "id": "00148896__orphan__20260723800352",
+      "purpose": "기존 생산설비 증설",
+      "invest_amount_mn": 1429926250,
+      "ratio_to_revenue_pct": 42304.8,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260723800352"
     }
   ]
 }
