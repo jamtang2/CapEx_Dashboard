@@ -733,14 +733,6 @@
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250825800248"
     },
     {
-      "corp_name": "트리니티항공",
-      "id": "00671376__orphan__20260317801146",
-      "purpose": "인천국제공항 첨단복합항공단지 내 당사 신규 격납고를 구축함으로써 글로벌 MRO 시장의 지속성장 속 항공정비 역량을 강화하여 가격 경쟁력을 확보하고 항공안전을 강화",
-      "invest_amount_mn": 136498,
-      "ratio_to_revenue_pct": 7.6,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731800772"
-    },
-    {
       "corp_name": "윈하이텍",
       "id": "00910840__orphan__20260318900349",
       "purpose": "제3공장 신규 시설투자",
@@ -772,7 +764,7 @@
       "purpose": "Global 원자재 가격 변동성에 선제적으로 대응 하기 위한 투자로, 원가경쟁력 강화를 위한 저가 원료 처리 공정 시설 투자임.",
       "invest_amount_mn": 15820,
       "ratio_to_revenue_pct": 4.3,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260406900288"
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806900387"
     },
     {
       "corp_name": "이노테크",
@@ -1259,14 +1251,6 @@
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260520800525"
     },
     {
-      "corp_name": "이비테크",
-      "id": "01116344__orphan__20260609600485",
-      "purpose": "추후 증설 필요에 따른 사전 부지 확보",
-      "invest_amount_mn": 4593,
-      "ratio_to_revenue_pct": null,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260609600485"
-    },
-    {
       "corp_name": "드림텍",
       "id": "00415646__20260616800376",
       "purpose": "메모리 모듈 생산라인 증설",
@@ -1469,6 +1453,14 @@
       "invest_amount_mn": 14000,
       "ratio_to_revenue_pct": 4.6,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730800560"
+    },
+    {
+      "corp_name": "고영",
+      "id": "00579999__20260806900463",
+      "purpose": "- AIDC·반도체 고객사 수요 확대 대응을 위한 산업용 검사장비 생산능력 확충 - 의료로봇사업의 글로벌 확산 대응을 위한 생산 기반 확충",
+      "invest_amount_mn": 29439,
+      "ratio_to_revenue_pct": 12.7,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806900463"
     }
   ],
   "2029-08": [
@@ -1569,6 +1561,42 @@
       "invest_amount_mn": 1348900,
       "ratio_to_revenue_pct": 8.7,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260729800985"
+    }
+  ],
+  "2031-10": [
+    {
+      "corp_name": "SK스퀘어",
+      "id": "01596425__20260807800697",
+      "purpose": "메모리 수요 대응 위한 중장기 생산 기반 확보",
+      "invest_amount_mn": 35224600,
+      "ratio_to_revenue_pct": 2495.5,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800697"
+    },
+    {
+      "corp_name": "SK하이닉스",
+      "id": "00164779__20260807800613",
+      "purpose": "메모리 수요 대응 위한 중장기 생산 기반 확보",
+      "invest_amount_mn": 35224600,
+      "ratio_to_revenue_pct": 36.3,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800613"
+    }
+  ],
+  "2031-04": [
+    {
+      "corp_name": "SK스퀘어",
+      "id": "01596425__20260807800694",
+      "purpose": "메모리 수요 대응 위한 중장기 생산 기반 확보",
+      "invest_amount_mn": 19100000,
+      "ratio_to_revenue_pct": 1353.2,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800694"
+    },
+    {
+      "corp_name": "SK하이닉스",
+      "id": "00164779__20260807800602",
+      "purpose": "메모리 수요 대응 위한 중장기 생산 기반 확보",
+      "invest_amount_mn": 19100000,
+      "ratio_to_revenue_pct": 19.7,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260807800602"
     }
   ]
 }
