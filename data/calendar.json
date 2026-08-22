@@ -311,6 +311,14 @@
       "invest_amount_mn": 5500,
       "ratio_to_revenue_pct": 15.9,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260609900374"
+    },
+    {
+      "corp_name": "한미반도체",
+      "id": "00161383__20260818800167",
+      "purpose": "글로벌 반도체 기업들의 설비 투자 확대에 따라 장비 공급 부족(쇼티지)에 선제적 대응하기 위한 신공장(8공장) 확보",
+      "invest_amount_mn": 56000,
+      "ratio_to_revenue_pct": 9.7,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260818800167"
     }
   ],
   "2027-06": [
@@ -1045,6 +1053,14 @@
       "invest_amount_mn": 41728,
       "ratio_to_revenue_pct": 23.7,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251226900325"
+    },
+    {
+      "corp_name": "에이펙스인텍",
+      "id": "00832700__orphan__20260202601274",
+      "purpose": "신규사업 및 기존사업 증설을 위한 공장 신축",
+      "invest_amount_mn": 6743,
+      "ratio_to_revenue_pct": null,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260202601274"
     }
   ],
   "2025-11": [
@@ -1145,6 +1161,14 @@
       "invest_amount_mn": 148530,
       "ratio_to_revenue_pct": 75.1,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260202900154"
+    },
+    {
+      "corp_name": "알테오젠",
+      "id": "00989619__20260821900238",
+      "purpose": "바이오의약품 사업 확대 및 글로벌 시장 대응을 위한 생산역량 확보 목적",
+      "invest_amount_mn": 253200,
+      "ratio_to_revenue_pct": 117.3,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260821900238"
     }
   ],
   "2027-09": [
