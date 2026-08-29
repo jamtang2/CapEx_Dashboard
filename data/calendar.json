@@ -355,14 +355,6 @@
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260420900645"
     },
     {
-      "corp_name": "디와이에이",
-      "id": "00149804__20260521800730",
-      "purpose": "NQ5(스포티지)후속 신규차종 NQ6 수주에 따른 생산 및 납입시스템 구축을 위한 설비 투자",
-      "invest_amount_mn": 12110,
-      "ratio_to_revenue_pct": 1.9,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260521800730"
-    },
-    {
       "corp_name": "화인베스틸",
       "id": "00661847__20260608800391",
       "purpose": "제품 포트폴리오 확대 및 생산능력 증대를 위한 설비증설",
@@ -523,6 +515,14 @@
       "invest_amount_mn": 497000,
       "ratio_to_revenue_pct": 46.7,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260720800599"
+    },
+    {
+      "corp_name": "심텍",
+      "id": "01095722__20260825900407",
+      "purpose": "AI향 SOCAMM모듈 기판 및 고다층 MSAP 기판 수요 증가 대응을 위한 생산능력 확대",
+      "invest_amount_mn": 274200,
+      "ratio_to_revenue_pct": 19.4,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825900407"
     }
   ],
   "2027-01": [
@@ -1053,14 +1053,6 @@
       "invest_amount_mn": 41728,
       "ratio_to_revenue_pct": 23.7,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251226900325"
-    },
-    {
-      "corp_name": "에이펙스인텍",
-      "id": "00832700__orphan__20260202601274",
-      "purpose": "신규사업 및 기존사업 증설을 위한 공장 신축",
-      "invest_amount_mn": 6743,
-      "ratio_to_revenue_pct": null,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260202601274"
     }
   ],
   "2025-11": [
@@ -1469,40 +1461,6 @@
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260428800329"
     }
   ],
-  "2027-08": [
-    {
-      "corp_name": "디와이에이",
-      "id": "00149804__20260428800774",
-      "purpose": "LW1 (PV7) 시트 생산, 아산공장 통합을 통하여 신규 수주 대응 및 경쟁력 강화를 위함.",
-      "invest_amount_mn": 42790,
-      "ratio_to_revenue_pct": 6.8,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260428800774"
-    },
-    {
-      "corp_name": "케이씨피드",
-      "id": "00101752__20260527900775",
-      "purpose": "액란 시장수요 증가에 대응하기 위한 생산공장 증축 및 설비 증설",
-      "invest_amount_mn": 13415,
-      "ratio_to_revenue_pct": 11.0,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260527900775"
-    },
-    {
-      "corp_name": "그린케미칼",
-      "id": "00454946__20260730800560",
-      "purpose": "제품 생산능력 확대",
-      "invest_amount_mn": 14000,
-      "ratio_to_revenue_pct": 4.6,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730800560"
-    },
-    {
-      "corp_name": "고영",
-      "id": "00579999__20260806900463",
-      "purpose": "- AIDC·반도체 고객사 수요 확대 대응을 위한 산업용 검사장비 생산능력 확충 - 의료로봇사업의 글로벌 확산 대응을 위한 생산 기반 확충",
-      "invest_amount_mn": 29439,
-      "ratio_to_revenue_pct": 12.7,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806900463"
-    }
-  ],
   "2029-08": [
     {
       "corp_name": "KSS해운",
@@ -1571,6 +1529,32 @@
       "invest_amount_mn": 54849,
       "ratio_to_revenue_pct": null,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812900494"
+    }
+  ],
+  "2027-08": [
+    {
+      "corp_name": "케이씨피드",
+      "id": "00101752__20260527900775",
+      "purpose": "액란 시장수요 증가에 대응하기 위한 생산공장 증축 및 설비 증설",
+      "invest_amount_mn": 13415,
+      "ratio_to_revenue_pct": 11.0,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260527900775"
+    },
+    {
+      "corp_name": "그린케미칼",
+      "id": "00454946__20260730800560",
+      "purpose": "제품 생산능력 확대",
+      "invest_amount_mn": 14000,
+      "ratio_to_revenue_pct": 4.6,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730800560"
+    },
+    {
+      "corp_name": "고영",
+      "id": "00579999__20260806900463",
+      "purpose": "- AIDC·반도체 고객사 수요 확대 대응을 위한 산업용 검사장비 생산능력 확충 - 의료로봇사업의 글로벌 확산 대응을 위한 생산 기반 확충",
+      "invest_amount_mn": 29439,
+      "ratio_to_revenue_pct": 12.7,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806900463"
     }
   ],
   "2028-06": [
@@ -1665,6 +1649,16 @@
       "invest_amount_mn": 150000,
       "ratio_to_revenue_pct": 8.2,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813801073"
+    }
+  ],
+  "2029-09": [
+    {
+      "corp_name": "국제약품",
+      "id": "00104722__20260824800587",
+      "purpose": "매출 증가에 따른 생산능력 증대 및 원가 개선을 위해 신규 시설 투자를 하여 기존 생산대비 점안제 133%, 정제 100%, 캡슐제 100% 생산량의 증대와 노후화된 제조시설 교체로 생산수율 향상과 수리비용 절감 및 생산가동시간을 늘리고 제품 보관소를 신축하여 원활한 공급체계를 구축하고자 함.",
+      "invest_amount_mn": 55520,
+      "ratio_to_revenue_pct": 31.6,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824800587"
     }
   ]
 }
