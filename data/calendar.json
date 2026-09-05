@@ -339,14 +339,6 @@
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251010900379"
     },
     {
-      "corp_name": "펩트론",
-      "id": "00415868__orphan__20251203900572",
-      "purpose": "해외 진출을 위한 cGMP급 약효지속성 의약품 전용 생산시설 건설",
-      "invest_amount_mn": 65000,
-      "ratio_to_revenue_pct": 2062.2,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251203900572"
-    },
-    {
       "corp_name": "퓨릿",
       "id": "01027828__20260420900645",
       "purpose": "사업확장에 따른 생산능력 확대를 위한 신축공장 건설 및 설비 투자(제조소,정제설비등)",
@@ -757,6 +749,14 @@
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250825800248"
     },
     {
+      "corp_name": "트리니티항공",
+      "id": "00671376__orphan__20260317801146",
+      "purpose": "인천국제공항 첨단복합항공단지 내 당사 신규 격납고를 구축함으로써 글로벌 MRO 시장의 지속성장 속 항공정비 역량을 강화하여 가격 경쟁력을 확보하고 항공안전을 강화",
+      "invest_amount_mn": 136498,
+      "ratio_to_revenue_pct": 7.6,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731800772"
+    },
+    {
       "corp_name": "윈하이텍",
       "id": "00910840__orphan__20260318900349",
       "purpose": "제3공장 신규 시설투자",
@@ -1065,6 +1065,24 @@
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251111900321"
     }
   ],
+  "2028-02": [
+    {
+      "corp_name": "펩트론",
+      "id": "00415868__orphan__20251203900572",
+      "purpose": "해외 진출을 위한 cGMP급 약효지속성 의약품 전용 생산시설 건설",
+      "invest_amount_mn": 89000,
+      "ratio_to_revenue_pct": 1579.4,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260903900076"
+    },
+    {
+      "corp_name": "램테크놀러지",
+      "id": "00654272__orphan__20260227900294",
+      "purpose": "- 스마트팩토리 자동화 생산설비 및 종합분석센터 구축 - 생산시설증설을 통한 기존 제품 경쟁력 제고 및 성장 동력 확보",
+      "invest_amount_mn": 20000,
+      "ratio_to_revenue_pct": 46.9,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227900294"
+    }
+  ],
   "2031-06": [
     {
       "corp_name": "두산에너빌리티",
@@ -1143,6 +1161,14 @@
       "invest_amount_mn": 111500,
       "ratio_to_revenue_pct": 74.7,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260202901653"
+    },
+    {
+      "corp_name": "램테크놀러지",
+      "id": "00654272__orphan__20260831900561",
+      "purpose": "- 용인 반도체 클러스터 내 스마트팩토리 구축 및 경쟁력 제고",
+      "invest_amount_mn": 55500,
+      "ratio_to_revenue_pct": 130.0,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831900561"
     }
   ],
   "2028-09": [
@@ -1313,16 +1339,6 @@
       "invest_amount_mn": 8838,
       "ratio_to_revenue_pct": 0.7,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716800110"
-    }
-  ],
-  "2028-02": [
-    {
-      "corp_name": "램테크놀러지",
-      "id": "00654272__orphan__20260227900294",
-      "purpose": "- 스마트팩토리 자동화 생산설비 및 종합분석센터 구축 - 생산시설증설을 통한 기존 제품 경쟁력 제고 및 성장 동력 확보",
-      "invest_amount_mn": 20000,
-      "ratio_to_revenue_pct": 46.9,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227900294"
     }
   ],
   "2026-05": [
