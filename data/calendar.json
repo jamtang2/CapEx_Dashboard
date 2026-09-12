@@ -347,6 +347,14 @@
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260420900645"
     },
     {
+      "corp_name": "디와이에이",
+      "id": "00149804__20260521800730",
+      "purpose": "NQ5(스포티지)후속 신규차종 NQ6 수주에 따른 생산 및 납입시스템 구축을 위한 설비 투자",
+      "invest_amount_mn": 12110,
+      "ratio_to_revenue_pct": 1.9,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260521800730"
+    },
+    {
       "corp_name": "화인베스틸",
       "id": "00661847__20260608800391",
       "purpose": "제품 포트폴리오 확대 및 생산능력 증대를 위한 설비증설",
@@ -385,6 +393,14 @@
       "invest_amount_mn": 70200,
       "ratio_to_revenue_pct": 25.7,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812900903"
+    },
+    {
+      "corp_name": "LG씨엔에스",
+      "id": "00139834__20260911800638",
+      "purpose": "AI Factory 구축을 위한 GPU 장비 확보",
+      "invest_amount_mn": 381400,
+      "ratio_to_revenue_pct": 6.2,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911800638"
     }
   ],
   "2027-12": [
@@ -1027,17 +1043,27 @@
       "invest_amount_mn": 140000,
       "ratio_to_revenue_pct": 7.0,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716800838"
+    },
+    {
+      "corp_name": "코스메카코리아",
+      "id": "00763473__20260909900323",
+      "purpose": "화장품 수요 증가 대응을 위한 생산능력 확대",
+      "invest_amount_mn": 136000,
+      "ratio_to_revenue_pct": 21.2,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909900323"
+    }
+  ],
+  "2025-11": [
+    {
+      "corp_name": "한중엔시에스",
+      "id": "00474588__20251111900321",
+      "purpose": "ESS 생산기반 확보(신규시설 및 인프라 확보 등)",
+      "invest_amount_mn": 24332,
+      "ratio_to_revenue_pct": 13.7,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251111900321"
     }
   ],
   "2026-02": [
-    {
-      "corp_name": "시지메드텍",
-      "id": "00346610__orphan__20251104900240",
-      "purpose": "중장기 성장 기반 확보를 위한 공장 신설",
-      "invest_amount_mn": 9710,
-      "ratio_to_revenue_pct": 28.0,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251104900240"
-    },
     {
       "corp_name": "삼현",
       "id": "00262266__orphan__20251128900843",
@@ -1053,16 +1079,6 @@
       "invest_amount_mn": 41728,
       "ratio_to_revenue_pct": 23.7,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251226900325"
-    }
-  ],
-  "2025-11": [
-    {
-      "corp_name": "한중엔시에스",
-      "id": "00474588__20251111900321",
-      "purpose": "ESS 생산기반 확보(신규시설 및 인프라 확보 등)",
-      "invest_amount_mn": 24332,
-      "ratio_to_revenue_pct": 13.7,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251111900321"
     }
   ],
   "2028-02": [
@@ -1265,6 +1281,14 @@
       "invest_amount_mn": 5677,
       "ratio_to_revenue_pct": 39.8,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260522900650"
+    },
+    {
+      "corp_name": "아스플로",
+      "id": "00561732__20260908900137",
+      "purpose": "중국 현지 생산거점 구축 및 생산능력 확보",
+      "invest_amount_mn": 36293,
+      "ratio_to_revenue_pct": 53.4,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260908900137"
     }
   ],
   "2026-09": [
@@ -1477,6 +1501,40 @@
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260428800329"
     }
   ],
+  "2027-08": [
+    {
+      "corp_name": "디와이에이",
+      "id": "00149804__20260428800774",
+      "purpose": "LW1 (PV7) 시트 생산, 아산공장 통합을 통하여 신규 수주 대응 및 경쟁력 강화를 위함.",
+      "invest_amount_mn": 42790,
+      "ratio_to_revenue_pct": 6.8,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260428800774"
+    },
+    {
+      "corp_name": "케이씨피드",
+      "id": "00101752__20260527900775",
+      "purpose": "액란 시장수요 증가에 대응하기 위한 생산공장 증축 및 설비 증설",
+      "invest_amount_mn": 13415,
+      "ratio_to_revenue_pct": 11.0,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260527900775"
+    },
+    {
+      "corp_name": "그린케미칼",
+      "id": "00454946__20260730800560",
+      "purpose": "제품 생산능력 확대",
+      "invest_amount_mn": 14000,
+      "ratio_to_revenue_pct": 4.6,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730800560"
+    },
+    {
+      "corp_name": "고영",
+      "id": "00579999__20260806900463",
+      "purpose": "- AIDC·반도체 고객사 수요 확대 대응을 위한 산업용 검사장비 생산능력 확충 - 의료로봇사업의 글로벌 확산 대응을 위한 생산 기반 확충",
+      "invest_amount_mn": 29439,
+      "ratio_to_revenue_pct": 12.7,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806900463"
+    }
+  ],
   "2029-08": [
     {
       "corp_name": "KSS해운",
@@ -1545,32 +1603,14 @@
       "invest_amount_mn": 54849,
       "ratio_to_revenue_pct": null,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812900494"
-    }
-  ],
-  "2027-08": [
-    {
-      "corp_name": "케이씨피드",
-      "id": "00101752__20260527900775",
-      "purpose": "액란 시장수요 증가에 대응하기 위한 생산공장 증축 및 설비 증설",
-      "invest_amount_mn": 13415,
-      "ratio_to_revenue_pct": 11.0,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260527900775"
     },
     {
-      "corp_name": "그린케미칼",
-      "id": "00454946__20260730800560",
-      "purpose": "제품 생산능력 확대",
-      "invest_amount_mn": 14000,
-      "ratio_to_revenue_pct": 4.6,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730800560"
-    },
-    {
-      "corp_name": "고영",
-      "id": "00579999__20260806900463",
-      "purpose": "- AIDC·반도체 고객사 수요 확대 대응을 위한 산업용 검사장비 생산능력 확충 - 의료로봇사업의 글로벌 확산 대응을 위한 생산 기반 확충",
-      "invest_amount_mn": 29439,
-      "ratio_to_revenue_pct": 12.7,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260806900463"
+      "corp_name": "유진테크",
+      "id": "00531014__20260909900518",
+      "purpose": "반도체장비 생산능력 확대 및 중장기 고객 수요에 대응",
+      "invest_amount_mn": 86400,
+      "ratio_to_revenue_pct": 24.7,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909900518"
     }
   ],
   "2028-06": [
@@ -1665,6 +1705,22 @@
       "invest_amount_mn": 150000,
       "ratio_to_revenue_pct": 8.2,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260813801073"
+    },
+    {
+      "corp_name": "HD한국조선해양",
+      "id": "00164830__20260910800164",
+      "purpose": "엔진발전 시장 대응을 위한 대출력 발전엔진 생산 능력 확충",
+      "invest_amount_mn": 833600,
+      "ratio_to_revenue_pct": 2.8,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910800164"
+    },
+    {
+      "corp_name": "HD현대중공업",
+      "id": "01390344__20260910800161",
+      "purpose": "엔진발전 시장 대응을 위한 대출력 발전엔진 생산 능력 확충",
+      "invest_amount_mn": 833600,
+      "ratio_to_revenue_pct": 4.7,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910800161"
     }
   ],
   "2029-09": [
@@ -1675,6 +1731,16 @@
       "invest_amount_mn": 55520,
       "ratio_to_revenue_pct": 31.6,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824800587"
+    }
+  ],
+  "2029-04": [
+    {
+      "corp_name": "HD현대중공업",
+      "id": "01390344__20260910800163",
+      "purpose": "SMR 주기기 제작사업 생산시설 구축",
+      "invest_amount_mn": 238600,
+      "ratio_to_revenue_pct": 1.4,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910800163"
     }
   ]
 }
