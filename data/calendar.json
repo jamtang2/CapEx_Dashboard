@@ -531,6 +531,22 @@
       "invest_amount_mn": 274200,
       "ratio_to_revenue_pct": 19.4,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260825900407"
+    },
+    {
+      "corp_name": "SK디스커버리",
+      "id": "00131832__orphan__20260918800708",
+      "purpose": "울산 클린에너지 복합단지 사업 추진을 위한 LNG 탱크 및 관련 설비 건설",
+      "invest_amount_mn": 242800,
+      "ratio_to_revenue_pct": 2.4,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918800708"
+    },
+    {
+      "corp_name": "SK가스",
+      "id": "00144164__orphan__20260918800690",
+      "purpose": "울산 클린에너지 복합단지 사업 추진을 위한 LNG 탱크 및 관련 설비 건설",
+      "invest_amount_mn": 242800,
+      "ratio_to_revenue_pct": 3.2,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918800690"
     }
   ],
   "2027-01": [
@@ -687,6 +703,22 @@
       "invest_amount_mn": 4950,
       "ratio_to_revenue_pct": 4.8,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260407900741"
+    },
+    {
+      "corp_name": "해성산업",
+      "id": "00219361__20260918900538",
+      "purpose": "생산 인프라 확대 및 중장기 사업 성장기반 마련을 위한 수도권 생산거점 확보",
+      "invest_amount_mn": 68000,
+      "ratio_to_revenue_pct": 3.0,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918900538"
+    },
+    {
+      "corp_name": "해성디에스",
+      "id": "01032413__20260918800537",
+      "purpose": "생산 인프라 확대 및 중장기 사업 성장기반 마련을 위한 수도권 생산거점 확보",
+      "invest_amount_mn": 68000,
+      "ratio_to_revenue_pct": 10.4,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918800537"
     }
   ],
   "2026-08": [
@@ -729,14 +761,6 @@
       "invest_amount_mn": 8229,
       "ratio_to_revenue_pct": 57.6,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630900895"
-    },
-    {
-      "corp_name": "덕산네오룩스",
-      "id": "01061558__orphan__20260622900516",
-      "purpose": "추후 증설 필요에 따른 사전 부지 확보",
-      "invest_amount_mn": 25819,
-      "ratio_to_revenue_pct": 7.5,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260814901062"
     },
     {
       "corp_name": "비엠티",
@@ -829,6 +853,14 @@
       "invest_amount_mn": 2182,
       "ratio_to_revenue_pct": 16.8,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619900871"
+    },
+    {
+      "corp_name": "까뮤이앤씨",
+      "id": "00129420__20260916800164",
+      "purpose": "PC(프리캐스트 콘크리트) 제품 생산능력 확충",
+      "invest_amount_mn": 18178,
+      "ratio_to_revenue_pct": 6.1,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260916800164"
     }
   ],
   "2030-09": [
@@ -1051,6 +1083,22 @@
       "invest_amount_mn": 136000,
       "ratio_to_revenue_pct": 21.2,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909900323"
+    },
+    {
+      "corp_name": "해성산업",
+      "id": "00219361__20260918900631",
+      "purpose": "신규 생산방식인 Panel 공법 도입을 통한 중장기 성장 기반 마련 및 제조 경쟁력 확보",
+      "invest_amount_mn": 190000,
+      "ratio_to_revenue_pct": 8.4,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918900631"
+    },
+    {
+      "corp_name": "해성디에스",
+      "id": "01032413__20260918800546",
+      "purpose": "신규 생산방식인 Panel 공법 도입을 통한 중장기 성장 기반 마련 및 제조 경쟁력 확보",
+      "invest_amount_mn": 190000,
+      "ratio_to_revenue_pct": 29.1,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918800546"
     }
   ],
   "2025-11": [
@@ -1079,6 +1127,14 @@
       "invest_amount_mn": 41728,
       "ratio_to_revenue_pct": 23.7,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251226900325"
+    },
+    {
+      "corp_name": "에이펙스인텍",
+      "id": "00832700__orphan__20260202601274",
+      "purpose": "신규사업 및 기존사업 증설을 위한 공장 신축",
+      "invest_amount_mn": 6743,
+      "ratio_to_revenue_pct": null,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260202601274"
     }
   ],
   "2028-02": [
@@ -1185,6 +1241,14 @@
       "invest_amount_mn": 55500,
       "ratio_to_revenue_pct": 130.0,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260831900561"
+    },
+    {
+      "corp_name": "에이치브이엠",
+      "id": "01011368__20260915900443",
+      "purpose": "우주항공용 최첨단 단조설비 도입",
+      "invest_amount_mn": 41572,
+      "ratio_to_revenue_pct": 62.5,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915900443"
     }
   ],
   "2028-09": [
@@ -1349,6 +1413,14 @@
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260616800376"
     },
     {
+      "corp_name": "덕산네오룩스",
+      "id": "01061558__orphan__20260622900516",
+      "purpose": "추후 증설 필요에 따른 사전 부지 확보",
+      "invest_amount_mn": 25822637,
+      "ratio_to_revenue_pct": 7499.8,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915900675"
+    },
+    {
       "corp_name": "하림지주",
       "id": "00148364__orphan__20260626901383",
       "purpose": "생산라인 증설",
@@ -1363,6 +1435,22 @@
       "invest_amount_mn": 8838,
       "ratio_to_revenue_pct": 0.7,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260716800110"
+    },
+    {
+      "corp_name": "롯데케미칼",
+      "id": "00165413__orphan__20260917800509",
+      "purpose": "폐PET의 화학적 재활용을 통한 친환경 사업 진출 -",
+      "invest_amount_mn": 77000,
+      "ratio_to_revenue_pct": 0.4,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917800509"
+    },
+    {
+      "corp_name": "뉴보텍",
+      "id": "00351375__orphan__20260917900322",
+      "purpose": "제설제사업부의 물류 수요 증가에 대응하고, 장기적인 사업운영 효율성을 제고하기 위함 제설제사업부 공장증설 및 이전 철회",
+      "invest_amount_mn": 1536,
+      "ratio_to_revenue_pct": 3.5,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260917900322"
     }
   ],
   "2026-05": [
