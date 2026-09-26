@@ -401,6 +401,22 @@
       "invest_amount_mn": 381400,
       "ratio_to_revenue_pct": 6.2,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260911800638"
+    },
+    {
+      "corp_name": "한중엔시에스",
+      "id": "00474588__20260922900164",
+      "purpose": "ESS 부품 생산 설비 구매",
+      "invest_amount_mn": 34496,
+      "ratio_to_revenue_pct": 19.7,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260922900164"
+    },
+    {
+      "corp_name": "태양기계",
+      "id": "00442631__20260923600191",
+      "purpose": "현대자동차 친환경 상용차 LT2(1톤 트럭) 프로젝트 관련 부품의 양산 대응 및 생산능력 확충을 위한 완주 신공장 신축",
+      "invest_amount_mn": 8000,
+      "ratio_to_revenue_pct": null,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260923600191"
     }
   ],
   "2027-12": [
@@ -1829,6 +1845,16 @@
       "invest_amount_mn": 238600,
       "ratio_to_revenue_pct": 1.4,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910800163"
+    }
+  ],
+  "2030-06": [
+    {
+      "corp_name": "제이앤티씨",
+      "id": "00447575__20260921900243",
+      "purpose": "TGV 유리기판 생산 능력 확대 및 글로벌 시장의 중장기 고객 수요에 대응을 위한 생산 역량 확보",
+      "invest_amount_mn": 347000,
+      "ratio_to_revenue_pct": 186.9,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921900243"
     }
   ]
 }
