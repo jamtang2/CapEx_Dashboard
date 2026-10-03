@@ -195,6 +195,14 @@
       "invest_amount_mn": 6500,
       "ratio_to_revenue_pct": 16.1,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260730900827"
+    },
+    {
+      "corp_name": "한화엔진",
+      "id": "00361008__orphan__20260930800883",
+      "purpose": "중장기 생산능력 확보",
+      "invest_amount_mn": 80200,
+      "ratio_to_revenue_pct": 5.8,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930800883"
     }
   ],
   "2025-12": [
@@ -319,6 +327,14 @@
       "invest_amount_mn": 56000,
       "ratio_to_revenue_pct": 9.7,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260818800167"
+    },
+    {
+      "corp_name": "스톰테크",
+      "id": "01226270__20260928900245",
+      "purpose": "생산라인 능력 증대 및 업무시설의 확충을 위한 신축 건설",
+      "invest_amount_mn": 10778,
+      "ratio_to_revenue_pct": 15.5,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900245"
     }
   ],
   "2027-06": [
@@ -669,6 +685,14 @@
       "invest_amount_mn": 253800,
       "ratio_to_revenue_pct": 5.2,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250730800037"
+    },
+    {
+      "corp_name": "제이에스링크",
+      "id": "00642541__20261001900271",
+      "purpose": "영구자석생산단지 조성",
+      "invest_amount_mn": 24866512,
+      "ratio_to_revenue_pct": 128735.3,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001900271"
     }
   ],
   "2026-11": [
@@ -719,6 +743,38 @@
       "invest_amount_mn": 4950,
       "ratio_to_revenue_pct": 4.8,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260407900741"
+    },
+    {
+      "corp_name": "AK홀딩스",
+      "id": "00125080__orphan__20260430801230",
+      "purpose": "아라미드 섬유 핵심원료 TPC 국내 최초 양산을 통한 신규사업 전개",
+      "invest_amount_mn": 96742,
+      "ratio_to_revenue_pct": 3.0,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930800922"
+    },
+    {
+      "corp_name": "애경케미칼",
+      "id": "00936787__orphan__20260430801175",
+      "purpose": "아라미드 섬유 핵심원료 TPC 국내 최초 양산을 통한 신규사업 전개",
+      "invest_amount_mn": 96742,
+      "ratio_to_revenue_pct": 6.7,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930800894"
+    },
+    {
+      "corp_name": "태광산업",
+      "id": "00153393__orphan__20260520800525",
+      "purpose": "5G 통신용 광케이블 보강재 및 전기차 초고성능 타이어용 아라미드 수요 증가에 따른 증설",
+      "invest_amount_mn": 145000,
+      "ratio_to_revenue_pct": 7.9,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930800215"
+    },
+    {
+      "corp_name": "하림지주",
+      "id": "00148364__orphan__20260626901383",
+      "purpose": "생산라인 증설",
+      "invest_amount_mn": 40313,
+      "ratio_to_revenue_pct": 0.3,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930900940"
     },
     {
       "corp_name": "해성산업",
@@ -1143,14 +1199,6 @@
       "invest_amount_mn": 41728,
       "ratio_to_revenue_pct": 23.7,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251226900325"
-    },
-    {
-      "corp_name": "에이펙스인텍",
-      "id": "00832700__orphan__20260202601274",
-      "purpose": "신규사업 및 기존사업 증설을 위한 공장 신축",
-      "invest_amount_mn": 6743,
-      "ratio_to_revenue_pct": null,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260202601274"
     }
   ],
   "2028-02": [
@@ -1189,14 +1237,6 @@
       "invest_amount_mn": 58012,
       "ratio_to_revenue_pct": 5.6,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251229900718"
-    },
-    {
-      "corp_name": "CMG제약",
-      "id": "00380429__orphan__20251229900759",
-      "purpose": "글로벌 세포유전자 치료제 CDMO 생산시설 및 바이오뱅크 구축",
-      "invest_amount_mn": 46410,
-      "ratio_to_revenue_pct": 46.8,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251229900759"
     },
     {
       "corp_name": "도우인시스",
@@ -1239,6 +1279,14 @@
       "invest_amount_mn": 39120,
       "ratio_to_revenue_pct": 33.4,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260116900437"
+    },
+    {
+      "corp_name": "삼성전기",
+      "id": "00126371__20260928800821",
+      "purpose": "패키지기판 공장 증설",
+      "invest_amount_mn": 2510000,
+      "ratio_to_revenue_pct": 22.2,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928800821"
     }
   ],
   "2028-12": [
@@ -1378,7 +1426,7 @@
       "purpose": "- 금산공장 기존 제조소 리모델링 및 생산시설 증설을 통한 제품 경쟁력 제고 및 기술 개발 제품 통한 성장 동력 확보 ① HBM용,TGV용,TSV용 전용 제품 생산 설비 구축 ② 양자 거동 제어를 통한 인산정제 설비 1기 구축 ③ 불산 자동화 생산설비 구축 및 증설",
       "invest_amount_mn": 9000,
       "ratio_to_revenue_pct": 21.1,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227900372"
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930900492"
     },
     {
       "corp_name": "제이앤티씨",
@@ -1387,38 +1435,6 @@
       "invest_amount_mn": 55000,
       "ratio_to_revenue_pct": 29.6,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731901141"
-    },
-    {
-      "corp_name": "AK홀딩스",
-      "id": "00125080__orphan__20260430801230",
-      "purpose": "아라미드 섬유 핵심원료 TPC 국내 최초 양산을 통한 신규사업 전개",
-      "invest_amount_mn": 96742,
-      "ratio_to_revenue_pct": 3.0,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430801230"
-    },
-    {
-      "corp_name": "애경케미칼",
-      "id": "00936787__orphan__20260430801175",
-      "purpose": "아라미드 섬유 핵심원료 TPC 국내 최초 양산을 통한 신규사업 전개",
-      "invest_amount_mn": 96742,
-      "ratio_to_revenue_pct": 6.7,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430801175"
-    },
-    {
-      "corp_name": "태광산업",
-      "id": "00153393__orphan__20260520800525",
-      "purpose": "5G 통신용 광케이블 보강재 및 전기차 초고성능 타이어용 아라미드 수요 증가에 따른 증설",
-      "invest_amount_mn": 145000,
-      "ratio_to_revenue_pct": 7.9,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260520800525"
-    },
-    {
-      "corp_name": "이비테크",
-      "id": "01116344__orphan__20260609600485",
-      "purpose": "추후 증설 필요에 따른 사전 부지 확보",
-      "invest_amount_mn": 4593,
-      "ratio_to_revenue_pct": null,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260609600485"
     },
     {
       "corp_name": "드림텍",
@@ -1435,14 +1451,6 @@
       "invest_amount_mn": 25822637,
       "ratio_to_revenue_pct": 7499.8,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915900675"
-    },
-    {
-      "corp_name": "하림지주",
-      "id": "00148364__orphan__20260626901383",
-      "purpose": "생산라인 증설",
-      "invest_amount_mn": 40313,
-      "ratio_to_revenue_pct": 0.3,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626901383"
     },
     {
       "corp_name": "드림텍",
@@ -1825,6 +1833,14 @@
       "invest_amount_mn": 833600,
       "ratio_to_revenue_pct": 4.7,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260910800161"
+    },
+    {
+      "corp_name": "삼성전기",
+      "id": "00126371__20260928800810",
+      "purpose": "패키지기판 생산 Capa 확대를 위한 증설",
+      "invest_amount_mn": 4270000,
+      "ratio_to_revenue_pct": 37.7,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928800810"
     }
   ],
   "2029-09": [
@@ -1835,6 +1851,14 @@
       "invest_amount_mn": 55520,
       "ratio_to_revenue_pct": 31.6,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260824800587"
+    },
+    {
+      "corp_name": "한주라이트메탈",
+      "id": "00156600__orphan__20260930901012",
+      "purpose": "현대자동차 EM플랫폼 대비 설비 투자",
+      "invest_amount_mn": 57343,
+      "ratio_to_revenue_pct": 22.1,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930901012"
     }
   ],
   "2029-04": [
