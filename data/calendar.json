@@ -1011,6 +1011,14 @@
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260519800635"
     },
     {
+      "corp_name": "이비테크",
+      "id": "01116344__orphan__20260609600485",
+      "purpose": "추후 증설 필요에 따른 사전 부지 확보",
+      "invest_amount_mn": 4591,
+      "ratio_to_revenue_pct": null,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930601192"
+    },
+    {
       "corp_name": "티씨케이",
       "id": "00245472__orphan__20260626900949",
       "purpose": "공장신설을 위한 부지확보",
@@ -1173,17 +1181,15 @@
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918800546"
     }
   ],
-  "2025-11": [
-    {
-      "corp_name": "한중엔시에스",
-      "id": "00474588__20251111900321",
-      "purpose": "ESS 생산기반 확보(신규시설 및 인프라 확보 등)",
-      "invest_amount_mn": 24332,
-      "ratio_to_revenue_pct": 13.7,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251111900321"
-    }
-  ],
   "2026-02": [
+    {
+      "corp_name": "시지메드텍",
+      "id": "00346610__orphan__20251104900240",
+      "purpose": "중장기 성장 기반 확보를 위한 공장 신설",
+      "invest_amount_mn": 9710,
+      "ratio_to_revenue_pct": 28.0,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251104900240"
+    },
     {
       "corp_name": "삼현",
       "id": "00262266__orphan__20251128900843",
@@ -1199,6 +1205,24 @@
       "invest_amount_mn": 41728,
       "ratio_to_revenue_pct": 23.7,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251226900325"
+    },
+    {
+      "corp_name": "에이펙스인텍",
+      "id": "00832700__orphan__20260202601274",
+      "purpose": "신규사업 및 기존사업 증설을 위한 공장 신축",
+      "invest_amount_mn": 6743,
+      "ratio_to_revenue_pct": null,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260202601274"
+    }
+  ],
+  "2025-11": [
+    {
+      "corp_name": "한중엔시에스",
+      "id": "00474588__20251111900321",
+      "purpose": "ESS 생산기반 확보(신규시설 및 인프라 확보 등)",
+      "invest_amount_mn": 24332,
+      "ratio_to_revenue_pct": 13.7,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251111900321"
     }
   ],
   "2028-02": [

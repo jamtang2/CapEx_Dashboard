@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
-  "last_run": "2026-10-03T03:07:41Z",
-  "total": 398,
+  "last_run": "2026-10-10T03:35:37Z",
+  "total": 400,
   "include": 232,
   "stats": {
-    "new": 6,
-    "updated": 9,
-    "orphan": 4
+    "new": 1,
+    "updated": 0,
+    "orphan": 1
   },
   "items": [
     {
@@ -2700,7 +2700,7 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": true
+      "is_trading_halted": false
     },
     {
       "corp_code": "01335851",
@@ -3504,7 +3504,7 @@
           }
         }
       ],
-      "is_trading_halted": true
+      "is_trading_halted": false
     },
     {
       "corp_code": "00994994",
@@ -5307,7 +5307,7 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": true
+      "is_trading_halted": false
     },
     {
       "corp_code": "00149354",
@@ -9861,7 +9861,7 @@
           }
         }
       ],
-      "is_trading_halted": true
+      "is_trading_halted": false
     },
     {
       "corp_code": "00407285",
@@ -13722,6 +13722,70 @@
       "id": "00642541__20261001900271",
       "is_revised": false,
       "orphan_revision": false,
+      "revisions": [],
+      "is_trading_halted": false
+    },
+    {
+      "corp_code": "01011368",
+      "corp_name": "에이치브이엠",
+      "stock_code": "295310",
+      "market": "코",
+      "rcept_no": "20261007900497",
+      "rcept_dt": "20261007",
+      "report_nm": "신규시설투자등(자율공시)              ",
+      "invest_amount_mn": null,
+      "annual_revenue_mn": null,
+      "revenue_year": null,
+      "revenue_account": null,
+      "revenue_fs_div": null,
+      "net_income_mn": null,
+      "ratio_to_revenue_pct": null,
+      "ratio_to_equity_pct": null,
+      "per": null,
+      "purpose": null,
+      "start_date": null,
+      "end_date": null,
+      "board_resolution_date": null,
+      "category": "ambiguous",
+      "classify_reason": "LLM 파싱 실패",
+      "classify_confidence": 0.0,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007900497",
+      "last_updated": "2026-10-10T03:35:37Z",
+      "id": "01011368__20261007900497",
+      "is_revised": false,
+      "orphan_revision": false,
+      "revisions": [],
+      "is_trading_halted": false
+    },
+    {
+      "corp_code": "00982023",
+      "corp_name": "실리콘투",
+      "stock_code": "257720",
+      "market": "코",
+      "rcept_no": "20261007900302",
+      "rcept_dt": "20261007",
+      "report_nm": "[기재정정]유형자산취득결정(자율공시)              ",
+      "invest_amount_mn": null,
+      "annual_revenue_mn": null,
+      "revenue_year": null,
+      "revenue_account": null,
+      "revenue_fs_div": null,
+      "net_income_mn": null,
+      "ratio_to_revenue_pct": null,
+      "ratio_to_equity_pct": null,
+      "per": null,
+      "purpose": null,
+      "start_date": null,
+      "end_date": null,
+      "board_resolution_date": null,
+      "category": "ambiguous",
+      "classify_reason": "LLM 파싱 실패",
+      "classify_confidence": 0.0,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261007900302",
+      "last_updated": "2026-10-10T03:35:37Z",
+      "id": "00982023__orphan__20261007900302",
+      "is_revised": true,
+      "orphan_revision": true,
       "revisions": [],
       "is_trading_halted": false
     }
