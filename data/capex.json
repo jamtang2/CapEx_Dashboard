@@ -1,12 +1,12 @@
 {
   "schema_version": "1.0",
-  "last_run": "2026-10-10T03:35:37Z",
+  "last_run": "2026-10-11T02:34:48Z",
   "total": 400,
   "include": 232,
   "stats": {
-    "new": 1,
+    "new": 0,
     "updated": 0,
-    "orphan": 1
+    "orphan": 0
   },
   "items": [
     {
@@ -39,7 +39,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 132033,
+      "equity_checked": true
     },
     {
       "corp_code": "00602172",
@@ -71,7 +73,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 196585,
+      "equity_checked": true
     },
     {
       "corp_code": "01274329",
@@ -103,7 +107,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 224811,
+      "equity_checked": true
     },
     {
       "corp_code": "00442826",
@@ -135,7 +141,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 163993,
+      "equity_checked": true
     },
     {
       "corp_code": "00964595",
@@ -167,7 +175,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 45552,
+      "equity_checked": true
     },
     {
       "corp_code": "00480783",
@@ -202,7 +212,9 @@
       "is_trading_halted": false,
       "invest_amount_mn_raw": 11947420,
       "amount_unit_fixed": "천원→백만원 (공시 자기자본대비 3.8% 기준 역산 자기자본이 매출의 1,249배)",
-      "amount_fixed_value": 11947
+      "amount_fixed_value": 11947,
+      "equity_mn": 154201,
+      "equity_checked": true
     },
     {
       "corp_code": "00159698",
@@ -317,7 +329,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 106041,
+      "equity_checked": true
     },
     {
       "corp_code": "00677334",
@@ -349,7 +363,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 38822,
+      "equity_checked": true
     },
     {
       "corp_code": "01538528",
@@ -381,7 +397,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 56468,
+      "equity_checked": true
     },
     {
       "corp_code": "01233465",
@@ -413,7 +431,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 105224,
+      "equity_checked": true
     },
     {
       "corp_code": "00119195",
@@ -477,7 +497,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 1496112,
+      "equity_checked": true
     },
     {
       "corp_code": "01686755",
@@ -509,7 +531,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 164221,
+      "equity_checked": true
     },
     {
       "corp_code": "01352575",
@@ -541,7 +565,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": null,
+      "equity_checked": true
     },
     {
       "corp_code": "00147082",
@@ -573,7 +599,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 68917,
+      "equity_checked": true
     },
     {
       "corp_code": "00141149",
@@ -624,7 +652,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 91459,
+      "equity_checked": true
     },
     {
       "corp_code": "00202060",
@@ -656,7 +686,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 130501,
+      "equity_checked": true
     },
     {
       "corp_code": "00126955",
@@ -720,7 +752,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 25030,
+      "equity_checked": true
     },
     {
       "corp_code": "00117188",
@@ -752,7 +786,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 2504439,
+      "equity_checked": true
     },
     {
       "corp_code": "01316245",
@@ -784,7 +820,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 2055618,
+      "equity_checked": true
     },
     {
       "corp_code": "00161976",
@@ -880,7 +918,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 139020,
+      "equity_checked": true
     },
     {
       "corp_code": "01146822",
@@ -1008,7 +1048,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 479830,
+      "equity_checked": true
     },
     {
       "corp_code": "00269852",
@@ -1104,7 +1146,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 1347988,
+      "equity_checked": true
     },
     {
       "corp_code": "01032413",
@@ -1136,7 +1180,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 556277,
+      "equity_checked": true
     },
     {
       "corp_code": "00454946",
@@ -1168,7 +1214,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 122327,
+      "equity_checked": true
     },
     {
       "corp_code": "00114792",
@@ -1296,7 +1344,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": null,
+      "equity_checked": true
     },
     {
       "corp_code": "00261285",
@@ -1328,7 +1378,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 10826356,
+      "equity_checked": true
     },
     {
       "corp_code": "00160375",
@@ -1360,7 +1412,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 32734,
+      "equity_checked": true
     },
     {
       "corp_code": "00135795",
@@ -1424,7 +1478,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 125439,
+      "equity_checked": true
     },
     {
       "corp_code": "00165680",
@@ -1539,7 +1595,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 56090,
+      "equity_checked": true
     },
     {
       "corp_code": "01046708",
@@ -1603,7 +1661,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 102336,
+      "equity_checked": true
     },
     {
       "corp_code": "01566248",
@@ -1635,7 +1695,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 296274,
+      "equity_checked": true
     },
     {
       "corp_code": "00195229",
@@ -1731,7 +1793,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 125389,
+      "equity_checked": true
     },
     {
       "corp_code": "00483735",
@@ -1763,7 +1827,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 19417,
+      "equity_checked": true
     },
     {
       "corp_code": "00120571",
@@ -1910,7 +1976,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 181607,
+      "equity_checked": true
     },
     {
       "corp_code": "00481454",
@@ -1961,7 +2029,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 2238707,
+      "equity_checked": true
     },
     {
       "corp_code": "00964595",
@@ -1993,7 +2063,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 45552,
+      "equity_checked": true
     },
     {
       "corp_code": "00157681",
@@ -2089,7 +2161,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 3320506,
+      "equity_checked": true
     },
     {
       "corp_code": "00148896",
@@ -2140,7 +2214,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 4731526,
+      "equity_checked": true
     },
     {
       "corp_code": "00442048",
@@ -2172,7 +2248,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 145205,
+      "equity_checked": true
     },
     {
       "corp_code": "00158963",
@@ -2204,7 +2282,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 406207,
+      "equity_checked": true
     },
     {
       "corp_code": "00119007",
@@ -2236,7 +2316,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 645969,
+      "equity_checked": true
     },
     {
       "corp_code": "00164645",
@@ -2300,7 +2382,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 102576,
+      "equity_checked": true
     },
     {
       "corp_code": "01021949",
@@ -2364,7 +2448,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 164221,
+      "equity_checked": true
     },
     {
       "corp_code": "00173944",
@@ -2428,7 +2514,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 7349463,
+      "equity_checked": true
     },
     {
       "corp_code": "00980122",
@@ -2492,7 +2580,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 264555,
+      "equity_checked": true
     },
     {
       "corp_code": "00811372",
@@ -2543,7 +2633,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 254640,
+      "equity_checked": true
     },
     {
       "corp_code": "00127875",
@@ -2671,7 +2763,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 18311,
+      "equity_checked": true
     },
     {
       "corp_code": "00346610",
@@ -2703,7 +2797,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 86766,
+      "equity_checked": true
     },
     {
       "corp_code": "01335851",
@@ -2767,7 +2863,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 89548,
+      "equity_checked": true
     },
     {
       "corp_code": "00474588",
@@ -2799,7 +2897,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 80417,
+      "equity_checked": true
     },
     {
       "corp_code": "00287812",
@@ -2895,7 +2995,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 80417,
+      "equity_checked": true
     },
     {
       "corp_code": "00132637",
@@ -2927,7 +3029,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 836435,
+      "equity_checked": true
     },
     {
       "corp_code": "00144818",
@@ -2978,7 +3082,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 140544,
+      "equity_checked": true
     },
     {
       "corp_code": "00160232",
@@ -3189,7 +3295,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 178430,
+      "equity_checked": true
     },
     {
       "corp_code": "00112022",
@@ -3253,7 +3361,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 115238,
+      "equity_checked": true
     },
     {
       "corp_code": "00106119",
@@ -3304,7 +3414,9 @@
           }
         }
       ],
-      "is_trading_halted": true
+      "is_trading_halted": true,
+      "equity_mn": 460577,
+      "equity_checked": true
     },
     {
       "corp_code": "00106119",
@@ -3355,7 +3467,9 @@
           }
         }
       ],
-      "is_trading_halted": true
+      "is_trading_halted": true,
+      "equity_mn": 460577,
+      "equity_checked": true
     },
     {
       "corp_code": "00106119",
@@ -3406,7 +3520,9 @@
           }
         }
       ],
-      "is_trading_halted": true
+      "is_trading_halted": true,
+      "equity_mn": 460577,
+      "equity_checked": true
     },
     {
       "corp_code": "00127158",
@@ -3539,7 +3655,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 30712,
+      "equity_checked": true
     },
     {
       "corp_code": "01116265",
@@ -3571,7 +3689,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 33013,
+      "equity_checked": true
     },
     {
       "corp_code": "00990396",
@@ -3604,7 +3724,9 @@
       "orphan_revision": true,
       "revisions": [],
       "is_trading_halted": true,
-      "amount_suspect": true
+      "amount_suspect": true,
+      "equity_mn": null,
+      "equity_checked": true
     },
     {
       "corp_code": "00137207",
@@ -3687,7 +3809,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 142009,
+      "equity_checked": true
     },
     {
       "corp_code": "00107987",
@@ -3783,7 +3907,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": null,
+      "equity_checked": true
     },
     {
       "corp_code": "00371485",
@@ -3911,7 +4037,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 11661092,
+      "equity_checked": true
     },
     {
       "corp_code": "00232821",
@@ -3943,7 +4071,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 123980,
+      "equity_checked": true
     },
     {
       "corp_code": "00162586",
@@ -3975,7 +4105,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 168351,
+      "equity_checked": true
     },
     {
       "corp_code": "00117276",
@@ -4010,7 +4142,9 @@
       "is_trading_halted": false,
       "invest_amount_mn_raw": 14083918,
       "amount_unit_fixed": "천원→백만원 (공시 자기자본대비 19.56% 기준 역산 자기자본이 매출의 2,227배)",
-      "amount_fixed_value": 14084
+      "amount_fixed_value": 14084,
+      "equity_mn": 64624,
+      "equity_checked": true
     },
     {
       "corp_code": "00875237",
@@ -4042,7 +4176,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 161526,
+      "equity_checked": true
     },
     {
       "corp_code": "00116824",
@@ -4138,7 +4274,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 246847,
+      "equity_checked": true
     },
     {
       "corp_code": "00671376",
@@ -4202,7 +4340,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 718849,
+      "equity_checked": true
     },
     {
       "corp_code": "00380429",
@@ -4234,7 +4374,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": true
+      "is_trading_halted": true,
+      "equity_mn": 189542,
+      "equity_checked": true
     },
     {
       "corp_code": "00560122",
@@ -4266,7 +4408,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 47833,
+      "equity_checked": true
     },
     {
       "corp_code": "01243161",
@@ -4317,7 +4461,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 65566,
+      "equity_checked": true
     },
     {
       "corp_code": "01319899",
@@ -4413,7 +4559,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 70422,
+      "equity_checked": true
     },
     {
       "corp_code": "01367586",
@@ -4445,7 +4593,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 70422,
+      "equity_checked": true
     },
     {
       "corp_code": "00219574",
@@ -4541,7 +4691,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 394568,
+      "equity_checked": true
     },
     {
       "corp_code": "00589127",
@@ -4573,7 +4725,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 349133,
+      "equity_checked": true
     },
     {
       "corp_code": "00181712",
@@ -4605,7 +4759,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 80287536,
+      "equity_checked": true
     },
     {
       "corp_code": "00631518",
@@ -4637,7 +4793,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 39648909,
+      "equity_checked": true
     },
     {
       "corp_code": "01360875",
@@ -4669,7 +4827,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 141199,
+      "equity_checked": true
     },
     {
       "corp_code": "00171265",
@@ -4797,7 +4957,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 92704,
+      "equity_checked": true
     },
     {
       "corp_code": "00545929",
@@ -4893,7 +5055,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 155707,
+      "equity_checked": true
     },
     {
       "corp_code": "01060814",
@@ -4957,7 +5121,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 346705,
+      "equity_checked": true
     },
     {
       "corp_code": "01728167",
@@ -5021,7 +5187,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 790594,
+      "equity_checked": true
     },
     {
       "corp_code": "01108248",
@@ -5085,7 +5253,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": true
+      "is_trading_halted": true,
+      "equity_mn": null,
+      "equity_checked": true
     },
     {
       "corp_code": "00122348",
@@ -5186,7 +5356,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 42624,
+      "equity_checked": true
     },
     {
       "corp_code": "00526951",
@@ -5250,7 +5422,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 168251,
+      "equity_checked": true
     },
     {
       "corp_code": "00927558",
@@ -5282,7 +5456,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 175357,
+      "equity_checked": true
     },
     {
       "corp_code": "00832700",
@@ -5314,7 +5490,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": null,
+      "equity_checked": true
     },
     {
       "corp_code": "00149354",
@@ -5346,7 +5524,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 913055,
+      "equity_checked": true
     },
     {
       "corp_code": "00101664",
@@ -5378,7 +5558,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 145738,
+      "equity_checked": true
     },
     {
       "corp_code": "00121154",
@@ -5410,7 +5592,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 189208,
+      "equity_checked": true
     },
     {
       "corp_code": "00166272",
@@ -5474,7 +5658,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 354425,
+      "equity_checked": true
     },
     {
       "corp_code": "00149804",
@@ -5570,7 +5756,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 520482,
+      "equity_checked": true
     },
     {
       "corp_code": "01011368",
@@ -5602,7 +5790,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 90114,
+      "equity_checked": true
     },
     {
       "corp_code": "00148364",
@@ -5762,7 +5952,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 2202787,
+      "equity_checked": true
     },
     {
       "corp_code": "00808086",
@@ -5826,7 +6018,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 27983163,
+      "equity_checked": true
     },
     {
       "corp_code": "00164779",
@@ -5858,7 +6052,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 120666751,
+      "equity_checked": true
     },
     {
       "corp_code": "00133511",
@@ -5922,7 +6118,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 1151531,
+      "equity_checked": true
     },
     {
       "corp_code": "01360875",
@@ -5954,7 +6152,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 109300,
+      "equity_checked": true
     },
     {
       "corp_code": "00654272",
@@ -6005,7 +6205,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 39723,
+      "equity_checked": true
     },
     {
       "corp_code": "00654272",
@@ -6037,7 +6239,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 39723,
+      "equity_checked": true
     },
     {
       "corp_code": "01117413",
@@ -6069,7 +6273,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 44069,
+      "equity_checked": true
     },
     {
       "corp_code": "00958451",
@@ -6101,7 +6307,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 68349,
+      "equity_checked": true
     },
     {
       "corp_code": "00115287",
@@ -6184,7 +6392,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 73756,
+      "equity_checked": true
     },
     {
       "corp_code": "00619507",
@@ -6216,7 +6426,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 49154,
+      "equity_checked": true
     },
     {
       "corp_code": "00122737",
@@ -6299,7 +6511,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 52028,
+      "equity_checked": true
     },
     {
       "corp_code": "00910840",
@@ -6331,7 +6545,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 72494,
+      "equity_checked": true
     },
     {
       "corp_code": "00447575",
@@ -6400,7 +6616,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 247710,
+      "equity_checked": true
     },
     {
       "corp_code": "00327819",
@@ -6432,7 +6650,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 143806,
+      "equity_checked": true
     },
     {
       "corp_code": "01275489",
@@ -6560,7 +6780,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 27983163,
+      "equity_checked": true
     },
     {
       "corp_code": "00164779",
@@ -6592,7 +6814,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 120666751,
+      "equity_checked": true
     },
     {
       "corp_code": "00413046",
@@ -6624,7 +6848,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 17352530,
+      "equity_checked": true
     },
     {
       "corp_code": "00605328",
@@ -6905,7 +7131,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 1057455,
+      "equity_checked": true
     },
     {
       "corp_code": "00139083",
@@ -6956,7 +7184,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 347375,
+      "equity_checked": true
     },
     {
       "corp_code": "00523307",
@@ -7020,7 +7250,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 223739,
+      "equity_checked": true
     },
     {
       "corp_code": "00244747",
@@ -7148,7 +7380,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 59311,
+      "equity_checked": true
     },
     {
       "corp_code": "00177816",
@@ -7180,7 +7414,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 258070,
+      "equity_checked": true
     },
     {
       "corp_code": "01383779",
@@ -7212,7 +7448,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 36094,
+      "equity_checked": true
     },
     {
       "corp_code": "00362858",
@@ -7429,7 +7667,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 168645,
+      "equity_checked": true
     },
     {
       "corp_code": "00160621",
@@ -7512,7 +7752,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 144416,
+      "equity_checked": true
     },
     {
       "corp_code": "01326279",
@@ -7544,7 +7786,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 23189,
+      "equity_checked": true
     },
     {
       "corp_code": "00101488",
@@ -7672,7 +7916,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 30622,
+      "equity_checked": true
     },
     {
       "corp_code": "00113191",
@@ -7736,7 +7982,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 107461,
+      "equity_checked": true
     },
     {
       "corp_code": "00104999",
@@ -7832,7 +8080,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 862644,
+      "equity_checked": true
     },
     {
       "corp_code": "01636565",
@@ -7952,7 +8202,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 35621,
+      "equity_checked": true
     },
     {
       "corp_code": "00367482",
@@ -8016,7 +8268,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 51765,
+      "equity_checked": true
     },
     {
       "corp_code": "01137903",
@@ -8048,7 +8302,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 202812,
+      "equity_checked": true
     },
     {
       "corp_code": "00563545",
@@ -8080,7 +8336,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 437077,
+      "equity_checked": true
     },
     {
       "corp_code": "00149804",
@@ -8112,7 +8370,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 46511,
+      "equity_checked": true
     },
     {
       "corp_code": "00113997",
@@ -8144,7 +8404,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 1793465,
+      "equity_checked": true
     },
     {
       "corp_code": "01189438",
@@ -8227,7 +8489,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 1122975,
+      "equity_checked": true
     },
     {
       "corp_code": "00936787",
@@ -8278,7 +8542,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 716362,
+      "equity_checked": true
     },
     {
       "corp_code": "00459871",
@@ -8288,13 +8554,13 @@
       "rcept_no": "20260430801036",
       "rcept_dt": "20260430",
       "report_nm": "[기재정정]신규시설투자등(자회사의 주요경영사항)              ",
-      "invest_amount_mn": 2,
+      "invest_amount_mn": 2000,
       "annual_revenue_mn": 858816,
       "revenue_year": 2025,
       "revenue_account": "매출액",
       "revenue_fs_div": "CFS",
       "net_income_mn": 114581,
-      "ratio_to_revenue_pct": 0.0,
+      "ratio_to_revenue_pct": 0.2,
       "ratio_to_equity_pct": null,
       "per": 3.5,
       "purpose": "수출 수요 확대에 따른 생산 공급 경쟁력 강화",
@@ -8310,7 +8576,12 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 1320947,
+      "equity_checked": true,
+      "invest_amount_mn_raw": 2,
+      "amount_unit_fixed": "원 단위 과소→×1000 (자기자본 대비 0.000% 비정상, 추정 보정)",
+      "amount_fixed_value": 2000
     },
     {
       "corp_code": "00258421",
@@ -8439,13 +8710,13 @@
       "rcept_no": "20260430800967",
       "rcept_dt": "20260430",
       "report_nm": "[기재정정]신규시설투자등              ",
-      "invest_amount_mn": 2,
+      "invest_amount_mn": 2000,
       "annual_revenue_mn": 3514316,
       "revenue_year": 2025,
       "revenue_account": "매출액",
       "revenue_fs_div": "CFS",
       "net_income_mn": 170054,
-      "ratio_to_revenue_pct": 0.0,
+      "ratio_to_revenue_pct": 0.1,
       "ratio_to_equity_pct": null,
       "per": 12.0,
       "purpose": "수출 수요 확대에 따른 생산 공급 경쟁력 강화",
@@ -8461,7 +8732,12 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 2831186,
+      "equity_checked": true,
+      "invest_amount_mn_raw": 2,
+      "amount_unit_fixed": "원 단위 과소→×1000 (자기자본 대비 0.000% 비정상, 추정 보정)",
+      "amount_fixed_value": 2000
     },
     {
       "corp_code": "00160232",
@@ -8493,7 +8769,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 544324,
+      "equity_checked": true
     },
     {
       "corp_code": "00255105",
@@ -8557,7 +8835,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 1449630,
+      "equity_checked": true
     },
     {
       "corp_code": "01478712",
@@ -8589,7 +8869,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 897305,
+      "equity_checked": true
     },
     {
       "corp_code": "00961774",
@@ -8621,7 +8903,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 65450,
+      "equity_checked": true
     },
     {
       "corp_code": "00493325",
@@ -8653,7 +8937,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 93469,
+      "equity_checked": true
     },
     {
       "corp_code": "00113207",
@@ -8864,7 +9150,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 295687,
+      "equity_checked": true
     },
     {
       "corp_code": "01009789",
@@ -8896,7 +9184,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 612344,
+      "equity_checked": true
     },
     {
       "corp_code": "00153393",
@@ -8928,7 +9218,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 3964265,
+      "equity_checked": true
     },
     {
       "corp_code": "00153393",
@@ -8979,7 +9271,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 3964265,
+      "equity_checked": true
     },
     {
       "corp_code": "00319272",
@@ -9043,7 +9337,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 46511,
+      "equity_checked": true
     },
     {
       "corp_code": "00113492",
@@ -9126,7 +9422,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 1667349,
+      "equity_checked": true
     },
     {
       "corp_code": "01012066",
@@ -9158,7 +9456,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 1328399,
+      "equity_checked": true
     },
     {
       "corp_code": "00807397",
@@ -9222,7 +9522,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 35621,
+      "equity_checked": true
     },
     {
       "corp_code": "00938721",
@@ -9382,7 +9684,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 168645,
+      "equity_checked": true
     },
     {
       "corp_code": "00101752",
@@ -9414,7 +9718,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 81032,
+      "equity_checked": true
     },
     {
       "corp_code": "00126566",
@@ -9520,13 +9826,13 @@
       "rcept_no": "20260529802065",
       "rcept_dt": "20260529",
       "report_nm": "[기재정정]신규시설투자등              ",
-      "invest_amount_mn": 2,
+      "invest_amount_mn": 2000,
       "annual_revenue_mn": 214493,
       "revenue_year": 2025,
       "revenue_account": "매출액",
       "revenue_fs_div": "OFS",
       "net_income_mn": 3866,
-      "ratio_to_revenue_pct": 0.0,
+      "ratio_to_revenue_pct": 0.9,
       "ratio_to_equity_pct": null,
       "per": 56.6,
       "purpose": "기존 제품군(카보머) 생산설비 증설을 통한 제품경쟁력 제고",
@@ -9542,7 +9848,12 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 174383,
+      "equity_checked": true,
+      "invest_amount_mn_raw": 2,
+      "amount_unit_fixed": "원 단위 과소→×1000 (자기자본 대비 0.001% 비정상, 추정 보정)",
+      "amount_fixed_value": 2000
     },
     {
       "corp_code": "00167208",
@@ -9606,7 +9917,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 72100,
+      "equity_checked": true
     },
     {
       "corp_code": "01745173",
@@ -9638,7 +9951,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 64353,
+      "equity_checked": true
     },
     {
       "corp_code": "01270749",
@@ -9753,7 +10068,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 51765,
+      "equity_checked": true
     },
     {
       "corp_code": "00125080",
@@ -9868,7 +10185,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": null,
+      "equity_checked": true
     },
     {
       "corp_code": "00407285",
@@ -9900,7 +10219,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 44339,
+      "equity_checked": true
     },
     {
       "corp_code": "00149354",
@@ -9996,7 +10317,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 78791,
+      "equity_checked": true
     },
     {
       "corp_code": "00577380",
@@ -10028,7 +10351,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 77650,
+      "equity_checked": true
     },
     {
       "corp_code": "00221728",
@@ -10060,7 +10385,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 116727,
+      "equity_checked": true
     },
     {
       "corp_code": "01762569",
@@ -10092,7 +10419,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 132856,
+      "equity_checked": true
     },
     {
       "corp_code": "00158565",
@@ -10193,7 +10522,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 109192,
+      "equity_checked": true
     },
     {
       "corp_code": "00415646",
@@ -10225,7 +10556,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 484178,
+      "equity_checked": true
     },
     {
       "corp_code": "00911229",
@@ -10289,7 +10622,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 5215,
+      "equity_checked": true
     },
     {
       "corp_code": "00445160",
@@ -10321,7 +10656,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 166276,
+      "equity_checked": true
     },
     {
       "corp_code": "01061558",
@@ -10393,7 +10730,9 @@
       "is_trading_halted": false,
       "invest_amount_mn_raw": 25822637,
       "amount_unit_fixed": "천원→백만원 (공시 자기자본대비 7.67% 기준 역산 자기자본이 매출의 978배)",
-      "amount_fixed_value": 25823
+      "amount_fixed_value": 25823,
+      "equity_mn": 470460,
+      "equity_checked": true
     },
     {
       "corp_code": "00650771",
@@ -10425,7 +10764,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 106929,
+      "equity_checked": true
     },
     {
       "corp_code": "00131896",
@@ -10521,7 +10862,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 143806,
+      "equity_checked": true
     },
     {
       "corp_code": "00339391",
@@ -10604,7 +10947,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 770495,
+      "equity_checked": true
     },
     {
       "corp_code": "00172185",
@@ -10687,7 +11032,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 6277593,
+      "equity_checked": true
     },
     {
       "corp_code": "00245472",
@@ -10719,7 +11066,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 519303,
+      "equity_checked": true
     },
     {
       "corp_code": "00831428",
@@ -10751,7 +11100,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 165006,
+      "equity_checked": true
     },
     {
       "corp_code": "00524786",
@@ -10783,7 +11134,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 149439,
+      "equity_checked": true
     },
     {
       "corp_code": "00148364",
@@ -10879,7 +11232,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 97192,
+      "equity_checked": true
     },
     {
       "corp_code": "00197759",
@@ -10962,7 +11317,9 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 16162,
+      "equity_checked": true
     },
     {
       "corp_code": "00111810",
@@ -10994,7 +11351,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 1767326,
+      "equity_checked": true
     },
     {
       "corp_code": "00427483",
@@ -11026,7 +11385,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 1134656,
+      "equity_checked": true
     },
     {
       "corp_code": "00102858",
@@ -11058,7 +11419,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 10998930,
+      "equity_checked": true
     },
     {
       "corp_code": "00138279",
@@ -11154,7 +11517,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 95859,
+      "equity_checked": true
     },
     {
       "corp_code": "00654272",
@@ -11186,7 +11551,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 39723,
+      "equity_checked": true
     },
     {
       "corp_code": "01524118",
@@ -11218,7 +11585,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 48887,
+      "equity_checked": true
     },
     {
       "corp_code": "00674498",
@@ -11346,7 +11715,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 166289,
+      "equity_checked": true
     },
     {
       "corp_code": "01299203",
@@ -11410,7 +11781,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 1394273,
+      "equity_checked": true
     },
     {
       "corp_code": "00415646",
@@ -11442,7 +11815,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 484178,
+      "equity_checked": true
     },
     {
       "corp_code": "00109189",
@@ -11474,7 +11849,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 1449630,
+      "equity_checked": true
     },
     {
       "corp_code": "01478712",
@@ -11506,7 +11883,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 897305,
+      "equity_checked": true
     },
     {
       "corp_code": "01596425",
@@ -11538,7 +11917,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 27983163,
+      "equity_checked": true
     },
     {
       "corp_code": "00164779",
@@ -11570,7 +11951,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 120666751,
+      "equity_checked": true
     },
     {
       "corp_code": "00148896",
@@ -11605,7 +11988,9 @@
       "is_trading_halted": false,
       "invest_amount_mn_raw": 1429926250,
       "amount_unit_fixed": "천원→백만원 (공시 자기자본대비 26.4% 기준 역산 자기자본이 매출의 1,602배)",
-      "amount_fixed_value": 1429926
+      "amount_fixed_value": 1429926,
+      "equity_mn": 4731526,
+      "equity_checked": true
     },
     {
       "corp_code": "00145163",
@@ -11669,7 +12054,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 30334813,
+      "equity_checked": true
     },
     {
       "corp_code": "00231363",
@@ -11701,7 +12088,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 9067527,
+      "equity_checked": true
     },
     {
       "corp_code": "00532059",
@@ -11733,7 +12122,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 38288,
+      "equity_checked": true
     },
     {
       "corp_code": "00454946",
@@ -11765,7 +12156,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 128268,
+      "equity_checked": true
     },
     {
       "corp_code": "00367871",
@@ -11829,7 +12222,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 335166,
+      "equity_checked": true
     },
     {
       "corp_code": "00653024",
@@ -11893,7 +12288,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 27983163,
+      "equity_checked": true
     },
     {
       "corp_code": "01596425",
@@ -11925,7 +12322,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 27983163,
+      "equity_checked": true
     },
     {
       "corp_code": "00164779",
@@ -11957,7 +12356,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 120666751,
+      "equity_checked": true
     },
     {
       "corp_code": "00164779",
@@ -11989,7 +12390,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 120666751,
+      "equity_checked": true
     },
     {
       "corp_code": "01437858",
@@ -12072,7 +12475,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 210271,
+      "equity_checked": true
     },
     {
       "corp_code": "00557508",
@@ -12136,7 +12541,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 463680,
+      "equity_checked": true
     },
     {
       "corp_code": "00124799",
@@ -12200,7 +12607,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": null,
+      "equity_checked": true
     },
     {
       "corp_code": "00153393",
@@ -12232,7 +12641,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 3964265,
+      "equity_checked": true
     },
     {
       "corp_code": "00134565",
@@ -12296,7 +12707,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 690328,
+      "equity_checked": true
     },
     {
       "corp_code": "00911229",
@@ -12360,7 +12773,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 454443,
+      "equity_checked": true
     },
     {
       "corp_code": "00104722",
@@ -12392,7 +12807,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 97702,
+      "equity_checked": true
     },
     {
       "corp_code": "01095722",
@@ -12424,7 +12841,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 576366,
+      "equity_checked": true
     },
     {
       "corp_code": "00123718",
@@ -12552,7 +12971,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 39723,
+      "equity_checked": true
     },
     {
       "corp_code": "00911229",
@@ -12680,7 +13101,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 46385,
+      "equity_checked": true
     },
     {
       "corp_code": "00982023",
@@ -12744,7 +13167,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 491393,
+      "equity_checked": true
     },
     {
       "corp_code": "00763473",
@@ -12776,7 +13201,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 336235,
+      "equity_checked": true
     },
     {
       "corp_code": "00164830",
@@ -12808,7 +13235,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 16908353,
+      "equity_checked": true
     },
     {
       "corp_code": "01390344",
@@ -12840,7 +13269,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 9341620,
+      "equity_checked": true
     },
     {
       "corp_code": "01390344",
@@ -12872,7 +13303,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 9341620,
+      "equity_checked": true
     },
     {
       "corp_code": "00139834",
@@ -12904,7 +13337,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 2941439,
+      "equity_checked": true
     },
     {
       "corp_code": "00136624",
@@ -13032,7 +13467,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 90114,
+      "equity_checked": true
     },
     {
       "corp_code": "00129420",
@@ -13064,7 +13501,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 112372,
+      "equity_checked": true
     },
     {
       "corp_code": "00165413",
@@ -13096,7 +13535,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 17628428,
+      "equity_checked": true
     },
     {
       "corp_code": "00351375",
@@ -13128,7 +13569,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 22819,
+      "equity_checked": true
     },
     {
       "corp_code": "00131832",
@@ -13160,7 +13603,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 6851246,
+      "equity_checked": true
     },
     {
       "corp_code": "00144164",
@@ -13192,7 +13637,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 3144549,
+      "equity_checked": true
     },
     {
       "corp_code": "00219361",
@@ -13224,7 +13671,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 1288930,
+      "equity_checked": true
     },
     {
       "corp_code": "01032413",
@@ -13256,7 +13705,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 564370,
+      "equity_checked": true
     },
     {
       "corp_code": "00219361",
@@ -13288,7 +13739,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 1288930,
+      "equity_checked": true
     },
     {
       "corp_code": "01032413",
@@ -13320,7 +13773,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 564370,
+      "equity_checked": true
     },
     {
       "corp_code": "00447575",
@@ -13352,7 +13807,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 247710,
+      "equity_checked": true
     },
     {
       "corp_code": "00474588",
@@ -13384,7 +13841,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 100173,
+      "equity_checked": true
     },
     {
       "corp_code": "00442631",
@@ -13416,7 +13875,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": null,
+      "equity_checked": true
     },
     {
       "corp_code": "00126371",
@@ -13448,7 +13909,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 9797344,
+      "equity_checked": true
     },
     {
       "corp_code": "00126371",
@@ -13480,7 +13943,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 9797344,
+      "equity_checked": true
     },
     {
       "corp_code": "01226270",
@@ -13512,7 +13977,9 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 93821,
+      "equity_checked": true
     },
     {
       "corp_code": "01311408",
@@ -13576,7 +14043,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 46504,
+      "equity_checked": true
     },
     {
       "corp_code": "00361008",
@@ -13608,7 +14077,9 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "equity_mn": 556103,
+      "equity_checked": true
     },
     {
       "corp_code": "01060814",
@@ -13739,7 +14210,9 @@
       "is_trading_halted": false,
       "invest_amount_mn_raw": 24866512,
       "amount_unit_fixed": "천원→백만원 (공시 자기자본대비 20.21% 기준 역산 자기자본이 매출의 6,370배)",
-      "amount_fixed_value": 24867
+      "amount_fixed_value": 24867,
+      "equity_mn": 68593,
+      "equity_checked": true
     },
     {
       "corp_code": "01011368",

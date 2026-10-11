@@ -982,16 +982,16 @@
       "corp_name": "농심홀딩스",
       "id": "00459871__orphan__20260430801036",
       "purpose": "수출 수요 확대에 따른 생산 공급 경쟁력 강화",
-      "invest_amount_mn": 2,
-      "ratio_to_revenue_pct": 0.0,
+      "invest_amount_mn": 2000,
+      "ratio_to_revenue_pct": 0.2,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430801036"
     },
     {
       "corp_name": "농심",
       "id": "00108241__orphan__20260430800967",
       "purpose": "수출 수요 확대에 따른 생산 공급 경쟁력 강화",
-      "invest_amount_mn": 2,
-      "ratio_to_revenue_pct": 0.0,
+      "invest_amount_mn": 2000,
+      "ratio_to_revenue_pct": 0.1,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800967"
     },
     {
@@ -1554,8 +1554,8 @@
       "corp_name": "한농화성",
       "id": "00160861__orphan__20260529802065",
       "purpose": "기존 제품군(카보머) 생산설비 증설을 통한 제품경쟁력 제고",
-      "invest_amount_mn": 2,
-      "ratio_to_revenue_pct": 0.0,
+      "invest_amount_mn": 2000,
+      "ratio_to_revenue_pct": 0.9,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260529802065"
     }
   ],
