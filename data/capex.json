@@ -177,13 +177,13 @@
       "rcept_no": "20250703900570",
       "rcept_dt": "20250703",
       "report_nm": "[기재정정]유형자산취득결정(자율공시)(종속회사의주요경영사항)              ",
-      "invest_amount_mn": 11947420,
+      "invest_amount_mn": 11947,
       "annual_revenue_mn": 251801,
       "revenue_year": 2024,
       "revenue_account": "매출액",
       "revenue_fs_div": "CFS",
       "net_income_mn": 639,
-      "ratio_to_revenue_pct": 4744.8,
+      "ratio_to_revenue_pct": 4.7,
       "ratio_to_equity_pct": 3.8,
       "per": 335.8,
       "purpose": "미국 인디애나 진출 후 건물 신축",
@@ -199,7 +199,10 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "invest_amount_mn_raw": 11947420,
+      "amount_unit_fixed": "천원→백만원 (공시 자기자본대비 3.8% 기준 역산 자기자본이 매출의 1,249배)",
+      "amount_fixed_value": 11947
     },
     {
       "corp_code": "00159698",
@@ -3600,7 +3603,8 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": true
+      "is_trading_halted": true,
+      "amount_suspect": true
     },
     {
       "corp_code": "00137207",
@@ -3981,13 +3985,13 @@
       "rcept_no": "20251222900150",
       "rcept_dt": "20251222",
       "report_nm": "[기재정정]유형자산취득결정(종속회사의주요경영사항)              ",
-      "invest_amount_mn": 14083918,
+      "invest_amount_mn": 14084,
       "annual_revenue_mn": 32334,
       "revenue_year": 2024,
       "revenue_account": "매출액",
       "revenue_fs_div": "CFS",
       "net_income_mn": 1226,
-      "ratio_to_revenue_pct": 43557.6,
+      "ratio_to_revenue_pct": 43.6,
       "ratio_to_equity_pct": 19.56,
       "per": 1222.0,
       "purpose": "미국 줄기세포 생산시설(GMP) 등 글로벌 캠퍼스 구축 목적",
@@ -4003,7 +4007,10 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "invest_amount_mn_raw": 14083918,
+      "amount_unit_fixed": "천원→백만원 (공시 자기자본대비 19.56% 기준 역산 자기자본이 매출의 2,227배)",
+      "amount_fixed_value": 14084
     },
     {
       "corp_code": "00875237",
@@ -10324,13 +10331,13 @@
       "rcept_no": "20260915900675",
       "rcept_dt": "20260622",
       "report_nm": "[기재정정]유형자산취득결정(자율공시)              ",
-      "invest_amount_mn": 25822637,
+      "invest_amount_mn": 25823,
       "annual_revenue_mn": 344310,
       "revenue_year": 2025,
       "revenue_account": "매출액",
       "revenue_fs_div": "CFS",
       "net_income_mn": 53957,
-      "ratio_to_revenue_pct": 7499.8,
+      "ratio_to_revenue_pct": 7.5,
       "ratio_to_equity_pct": 7.67,
       "per": 13.5,
       "purpose": "추후 증설 필요에 따른 사전 부지 확보",
@@ -10383,7 +10390,10 @@
           }
         }
       ],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "invest_amount_mn_raw": 25822637,
+      "amount_unit_fixed": "천원→백만원 (공시 자기자본대비 7.67% 기준 역산 자기자본이 매출의 978배)",
+      "amount_fixed_value": 25823
     },
     {
       "corp_code": "00650771",
@@ -11570,13 +11580,13 @@
       "rcept_no": "20260723800352",
       "rcept_dt": "20260723",
       "report_nm": "[기재정정]유형자산취득결정(종속회사의주요경영사항)              ",
-      "invest_amount_mn": 1429926250,
+      "invest_amount_mn": 1429926,
       "annual_revenue_mn": 3380060,
       "revenue_year": 2025,
       "revenue_account": "매출액",
       "revenue_fs_div": "CFS",
       "net_income_mn": -146248,
-      "ratio_to_revenue_pct": 42304.8,
+      "ratio_to_revenue_pct": 42.3,
       "ratio_to_equity_pct": 26.4,
       "per": null,
       "purpose": "기존 생산설비 증설",
@@ -11592,7 +11602,10 @@
       "is_revised": true,
       "orphan_revision": true,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "invest_amount_mn_raw": 1429926250,
+      "amount_unit_fixed": "천원→백만원 (공시 자기자본대비 26.4% 기준 역산 자기자본이 매출의 1,602배)",
+      "amount_fixed_value": 1429926
     },
     {
       "corp_code": "00145163",
@@ -13701,13 +13714,13 @@
       "rcept_no": "20261001900271",
       "rcept_dt": "20261001",
       "report_nm": "유형자산취득결정(종속회사의주요경영사항)              ",
-      "invest_amount_mn": 24866512,
+      "invest_amount_mn": 24867,
       "annual_revenue_mn": 19316,
       "revenue_year": 2025,
       "revenue_account": "매출액",
       "revenue_fs_div": "CFS",
       "net_income_mn": -16445,
-      "ratio_to_revenue_pct": 128735.3,
+      "ratio_to_revenue_pct": 128.7,
       "ratio_to_equity_pct": 20.21,
       "per": null,
       "purpose": "영구자석생산단지 조성",
@@ -13723,7 +13736,10 @@
       "is_revised": false,
       "orphan_revision": false,
       "revisions": [],
-      "is_trading_halted": false
+      "is_trading_halted": false,
+      "invest_amount_mn_raw": 24866512,
+      "amount_unit_fixed": "천원→백만원 (공시 자기자본대비 20.21% 기준 역산 자기자본이 매출의 6,370배)",
+      "amount_fixed_value": 24867
     },
     {
       "corp_code": "01011368",

@@ -50,6 +50,11 @@ jobs:
       - name: M5 — 정정 머징 (merger)
         run: python -m src.merger
 
+      - name: M5.5 — 투자금액 단위 검증 (amount_check)
+        env:
+          DART_API_KEY: ${{ secrets.DART_API_KEY }}
+        run: python -m src.amount_check
+
       - name: M6 — 캘린더 빌드 (builder)
         run: python -m src.builder
 

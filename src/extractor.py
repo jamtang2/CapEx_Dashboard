@@ -70,15 +70,36 @@ def strip_tags(text: str) -> str:
 # Rule-based parsers
 # ---------------------------------------------------------------------------
 
-def parse_amount_mn(raw: str):
-    """원 단위 숫자 → 백만원 정수. 이미 백만원 단위인 경우 그대로."""
+UNIT_TO_WON = {"원": 1, "천원": 1_000, "백만원": 1_000_000, "억원": 100_000_000}
+
+
+def parse_amount_mn(raw: str, unit: str | None = None):
+    """
+    금액 문자열 → 백만원 정수.
+    unit 이 '천원/백만원/억원'으로 명시돼 있으면 그대로 환산한다.
+    단위가 없거나 '원'이면 기존 추정(1억 이상 → 원, 미만 → 백만원)을 쓰되,
+    천원 표기를 놓친 경우는 src/amount_check.py 가 자기자본대비(%)로 사후 보정한다.
+    """
     raw = raw.replace(",", "").replace(" ", "")
     m = re.search(r"(\d+)", raw)
     if not m:
         return None
     val = int(m.group(1))
+    if unit in ("천원", "백만원", "억원"):
+        return round(val * UNIT_TO_WON[unit] / 1_000_000)
     # 1억 이상 → 원 단위로 간주
     return round(val / 1_000_000) if val >= 100_000_000 else val
+
+
+def detect_unit(text: str, pos: int, label_unit: str | None = None) -> str | None:
+    """금액 라벨의 단위 또는 직전 400자 안의 '(단위 : 천원)' 류 표기를 찾는다."""
+    if label_unit and label_unit != "원":
+        return label_unit
+    window = text[max(0, pos - 400):pos]
+    hits = re.findall(r"단\s*위\s*[：:]?\s*(억원|백만원|천원|원)", window)
+    if hits and hits[-1] != "원":
+        return hits[-1]
+    return label_unit
 
 
 def parse_date(raw: str):
@@ -103,18 +124,25 @@ def _clean_purpose(raw: str) -> str:
 def rule_extract(text: str) -> dict:
     result = {}
 
-    # 투자금액
+    # 투자금액 — 라벨/표의 단위 표기(원·천원·백만원·억원)를 함께 읽는다
     for pat in [
-        r"투자\s*금액\s*[（(]?원[）)]?\s*[：:\s]\s*([\d,]+)",
-        r"취득\s*예정\s*금액\s*[：:\s]\s*([\d,]+)",
-        r"투자\s*금액\s*[：:\s]\s*([\d,]+)",
-        r"금\s+([\d,]+)\s*원",
+        r"투자\s*금액\s*[（(]\s*(억원|백만원|천원|원)\s*[）)]\s*[：:\s]\s*([\d,]+)",
+        r"취득\s*예정\s*금액\s*(?:[（(]\s*(억원|백만원|천원|원)\s*[）)])?\s*[：:\s]\s*([\d,]+)",
+        r"투자\s*금액\s*()[：:\s]\s*([\d,]+)",
+        r"금\s+([\d,]+)\s*(원)",
     ]:
         m = re.search(pat, text, re.IGNORECASE)
         if m:
-            val = parse_amount_mn(m.group(1))
+            if pat.startswith("금"):
+                num, label = m.group(1), m.group(2)
+            else:
+                label, num = (m.group(1) or None), m.group(2)
+            unit = detect_unit(text, m.start(), label)
+            val = parse_amount_mn(num, unit)
             if val and val > 0:
                 result["invest_amount_mn"] = val
+                result["_amount_raw"] = num
+                result["_amount_unit"] = unit
                 break
 
     # 투자목적 — 다음 번호 항목 앞에서 잘라냄
@@ -185,7 +213,8 @@ _LLM_PROMPT = """\
 아래 JSON 스키마로 필드를 추출하세요. 찾을 수 없는 값은 null로 하세요.
 
 {
-  "invest_amount_mn": <투자금액. 원 단위이면 /1000000 반올림, 이미 백만원이면 그대로. 정수>,
+  "invest_amount_raw": <공시에 적힌 투자금액 숫자 그대로(쉼표 제거). 정수>,
+  "invest_amount_unit": <그 숫자의 단위. 표 머리말의 '(단위 : 천원)' 등도 반영. "원"|"천원"|"백만원"|"억원">,
   "purpose": <투자목적 텍스트, 200자 이내 문자열>,
   "start_date": <투자기간 시작일, YYYY-MM-DD 또는 null>,
   "end_date": <투자기간 종료일 또는 취득예정일, YYYY-MM-DD>,
@@ -211,9 +240,19 @@ def llm_extract(text: str, client: anthropic.Anthropic) -> dict:
     if not m:
         return {}
     try:
-        return json.loads(m.group(0))
+        out = json.loads(m.group(0))
     except json.JSONDecodeError:
         return {}
+    # 금액 환산은 코드에서 수행 (LLM이 단위 환산을 틀리는 것을 방지)
+    raw_amt = out.pop("invest_amount_raw", None)
+    unit = out.pop("invest_amount_unit", None)
+    if raw_amt is not None and unit in UNIT_TO_WON:
+        try:
+            out["invest_amount_mn"] = round(int(str(raw_amt).replace(",", "")) * UNIT_TO_WON[unit] / 1_000_000)
+            out["_amount_raw"], out["_amount_unit"] = str(raw_amt), unit
+        except ValueError:
+            pass
+    return out
 
 
 # ---------------------------------------------------------------------------
