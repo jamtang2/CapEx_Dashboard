@@ -146,7 +146,7 @@
       "purpose": "커넥팅로드 완제품 생산을 위한 시설투자",
       "invest_amount_mn": 8990,
       "ratio_to_revenue_pct": 12.2,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260106900291"
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015900391"
     },
     {
       "corp_name": "코리아써키트",
@@ -181,6 +181,14 @@
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260303900855"
     },
     {
+      "corp_name": "선익시스템",
+      "id": "00327819__20260319900187",
+      "purpose": "생산 Capacity 증설을 위한 평택 브레인시티 공장 B동 증축",
+      "invest_amount_mn": 15200,
+      "ratio_to_revenue_pct": 2.9,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015900571"
+    },
+    {
       "corp_name": "비씨엔씨",
       "id": "01301623__orphan__20260615900452",
       "purpose": "반도체 소재 공장 신증축 및 설비투자",
@@ -203,6 +211,14 @@
       "invest_amount_mn": 80200,
       "ratio_to_revenue_pct": 5.8,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930800883"
+    },
+    {
+      "corp_name": "하나제약",
+      "id": "00248974__orphan__20261016800681",
+      "purpose": "생산능력 증대를 통한 국내외 시장의 수요 대응 및 수출 경쟁력 강화",
+      "invest_amount_mn": 56760,
+      "ratio_to_revenue_pct": 23.7,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261016800681"
     }
   ],
   "2025-12": [
@@ -971,14 +987,6 @@
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251110900552"
     },
     {
-      "corp_name": "선익시스템",
-      "id": "00327819__20260319900187",
-      "purpose": "생산 Capacity 증설을 위한 평택 브레인시티 공장 B동 증축",
-      "invest_amount_mn": 15200,
-      "ratio_to_revenue_pct": 2.9,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260319900187"
-    },
-    {
       "corp_name": "농심홀딩스",
       "id": "00459871__orphan__20260430801036",
       "purpose": "수출 수요 확대에 따른 생산 공급 경쟁력 강화",
@@ -1009,14 +1017,6 @@
       "invest_amount_mn": 60500,
       "ratio_to_revenue_pct": 2.5,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260519800635"
-    },
-    {
-      "corp_name": "이비테크",
-      "id": "01116344__orphan__20260609600485",
-      "purpose": "추후 증설 필요에 따른 사전 부지 확보",
-      "invest_amount_mn": 4591,
-      "ratio_to_revenue_pct": null,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930601192"
     },
     {
       "corp_name": "티씨케이",
@@ -1747,6 +1747,14 @@
       "invest_amount_mn": 86400,
       "ratio_to_revenue_pct": 24.7,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260909900518"
+    },
+    {
+      "corp_name": "키스트론",
+      "id": "00204323__20261014900388",
+      "purpose": "사업확장에 따른 생산능력 증대 및 성장 기반 확보",
+      "invest_amount_mn": 16796,
+      "ratio_to_revenue_pct": 24.2,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261014900388"
     }
   ],
   "2028-06": [
@@ -1903,6 +1911,16 @@
       "invest_amount_mn": 347000,
       "ratio_to_revenue_pct": 186.9,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260921900243"
+    }
+  ],
+  "2028-07": [
+    {
+      "corp_name": "미원화학",
+      "id": "00855163__20261015800822",
+      "purpose": "정제황산 생산시설 증설",
+      "invest_amount_mn": 51895,
+      "ratio_to_revenue_pct": 18.2,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261015800822"
     }
   ]
 }
