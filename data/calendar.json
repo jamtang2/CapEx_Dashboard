@@ -351,6 +351,14 @@
       "invest_amount_mn": 10778,
       "ratio_to_revenue_pct": 15.5,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928900245"
+    },
+    {
+      "corp_name": "코미코",
+      "id": "00997812__20261019900362",
+      "purpose": "반도체 장비 부품(Heater, ESC 등) 생산능력(CAPA) 확충 등 중장기 성장기반 확보",
+      "invest_amount_mn": 150000,
+      "ratio_to_revenue_pct": 24.8,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261019900362"
     }
   ],
   "2027-06": [
@@ -629,6 +637,14 @@
       "invest_amount_mn": 13600,
       "ratio_to_revenue_pct": 18.4,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260619900403"
+    },
+    {
+      "corp_name": "케이비아이동국실업",
+      "id": "00114765__20261022800252",
+      "purpose": "크래쉬패드 경량화/고급화 생산공법 적용 및 양산을 위한 신공장 구축",
+      "invest_amount_mn": 27500,
+      "ratio_to_revenue_pct": 3.4,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022800252"
     }
   ],
   "2025-08": [
@@ -1179,6 +1195,22 @@
       "invest_amount_mn": 190000,
       "ratio_to_revenue_pct": 29.1,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918800546"
+    },
+    {
+      "corp_name": "대덕",
+      "id": "00109189__20261022800690",
+      "purpose": "반도체 시장수요 증가에 대응하기 위한 생산 설비 및 부대 시설 투자",
+      "invest_amount_mn": 615000,
+      "ratio_to_revenue_pct": 44.4,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022800690"
+    },
+    {
+      "corp_name": "대덕전자",
+      "id": "01478712__20261022800677",
+      "purpose": "반도체 시장수요 증가에 대응하기 위한 생산 설비 및 부대 시설 투자",
+      "invest_amount_mn": 615000,
+      "ratio_to_revenue_pct": 57.7,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261022800677"
     }
   ],
   "2026-02": [
@@ -1241,6 +1273,14 @@
       "invest_amount_mn": 20000,
       "ratio_to_revenue_pct": 46.9,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260227900294"
+    },
+    {
+      "corp_name": "한솔아이원스",
+      "id": "00625942__20261023900344",
+      "purpose": "반도체 시장 수요 증대 대응을 위한 오창 신공장 생산능력 확충",
+      "invest_amount_mn": 126000,
+      "ratio_to_revenue_pct": 63.4,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023900344"
     }
   ],
   "2031-06": [
@@ -1873,6 +1913,14 @@
       "invest_amount_mn": 4270000,
       "ratio_to_revenue_pct": 37.7,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260928800810"
+    },
+    {
+      "corp_name": "피에스케이",
+      "id": "01365825__20261023900529",
+      "purpose": "생산 Capa 확대 및 Global 경쟁력 강화",
+      "invest_amount_mn": 180000,
+      "ratio_to_revenue_pct": 39.4,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261023900529"
     }
   ],
   "2029-09": [
