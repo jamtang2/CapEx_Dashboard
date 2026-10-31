@@ -197,6 +197,14 @@
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260615900452"
     },
     {
+      "corp_name": "티씨케이",
+      "id": "00245472__orphan__20260626900949",
+      "purpose": "공장신설을 위한 부지확보",
+      "invest_amount_mn": 25691,
+      "ratio_to_revenue_pct": 8.5,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030900534"
+    },
+    {
       "corp_name": "그린생명과학",
       "id": "00532059__20260730900827",
       "purpose": "AI반도체 소재 생산 확대 원료의약품(API) 신규 품목 확대",
@@ -457,6 +465,14 @@
       "invest_amount_mn": 8000,
       "ratio_to_revenue_pct": null,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260923600191"
+    },
+    {
+      "corp_name": "LS에코에너지",
+      "id": "01093007__20261026800112",
+      "purpose": "UC 중형셀 공급 물량 대응을 위한 신규 생산라인 구축",
+      "invest_amount_mn": 64860,
+      "ratio_to_revenue_pct": 6.8,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261026800112"
     }
   ],
   "2027-12": [
@@ -475,6 +491,14 @@
       "invest_amount_mn": 103000,
       "ratio_to_revenue_pct": 3.0,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250808800556"
+    },
+    {
+      "corp_name": "에코프로에이치엔",
+      "id": "01566248__20250904900066",
+      "purpose": "제2캠퍼스(초평)內 차세대 PFC 촉매(허니컴촉매, 복합축열체) 생산 공장 조성",
+      "invest_amount_mn": 23570,
+      "ratio_to_revenue_pct": 16.7,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901378"
     },
     {
       "corp_name": "노바렉스",
@@ -603,6 +627,14 @@
       "invest_amount_mn": 242800,
       "ratio_to_revenue_pct": 3.2,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918800690"
+    },
+    {
+      "corp_name": "퓨릿",
+      "id": "01027828__20261028900379",
+      "purpose": "재생 및 산업용 제품 생산을 위한 증류탑등 설비구축",
+      "invest_amount_mn": 17500,
+      "ratio_to_revenue_pct": 12.3,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900379"
     }
   ],
   "2027-01": [
@@ -759,14 +791,6 @@
       "invest_amount_mn": 17500,
       "ratio_to_revenue_pct": 12.4,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260731801320"
-    },
-    {
-      "corp_name": "제이오",
-      "id": "00411808__orphan__20251128901225",
-      "purpose": "탄소나노튜브 생산시설 증설을 통한 생산능력 확대로 미래 성장동력 확보",
-      "invest_amount_mn": 70000,
-      "ratio_to_revenue_pct": 84.5,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251128901225"
     },
     {
       "corp_name": "아이엘",
@@ -977,72 +1001,6 @@
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250903900243"
     }
   ],
-  "2026-10": [
-    {
-      "corp_name": "에코프로에이치엔",
-      "id": "01566248__20250904900066",
-      "purpose": "제2캠퍼스(초평)內 차세대 PFC 촉매(허니컴촉매, 복합축열체) 생산 공장 조성",
-      "invest_amount_mn": 23570,
-      "ratio_to_revenue_pct": 10.1,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20250904900066"
-    },
-    {
-      "corp_name": "포스코퓨처엠",
-      "id": "00155276__orphan__20251001800670",
-      "purpose": "美 General Motors 社와의 합작투자를 통해 전기자동차(EV) 배터리용 High-Ni, NCMA N8x 양극재 제품 북미시장 진출을 위한 시설 투자",
-      "invest_amount_mn": 351197,
-      "ratio_to_revenue_pct": 9.5,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251001800670"
-    },
-    {
-      "corp_name": "한중엔시에스",
-      "id": "00474588__20251110900552",
-      "purpose": "신규 ESS 부품 생산",
-      "invest_amount_mn": 19000,
-      "ratio_to_revenue_pct": 10.7,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251110900552"
-    },
-    {
-      "corp_name": "농심홀딩스",
-      "id": "00459871__orphan__20260430801036",
-      "purpose": "수출 수요 확대에 따른 생산 공급 경쟁력 강화",
-      "invest_amount_mn": 2000,
-      "ratio_to_revenue_pct": 0.2,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430801036"
-    },
-    {
-      "corp_name": "농심",
-      "id": "00108241__orphan__20260430800967",
-      "purpose": "수출 수요 확대에 따른 생산 공급 경쟁력 강화",
-      "invest_amount_mn": 2000,
-      "ratio_to_revenue_pct": 0.1,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800967"
-    },
-    {
-      "corp_name": "코스맥스비티아이",
-      "id": "00219574__20260519800655",
-      "purpose": "생산능력 확충",
-      "invest_amount_mn": 60500,
-      "ratio_to_revenue_pct": 9.4,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260519800655"
-    },
-    {
-      "corp_name": "코스맥스",
-      "id": "01009789__20260519800635",
-      "purpose": "생산능력 확충",
-      "invest_amount_mn": 60500,
-      "ratio_to_revenue_pct": 2.5,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260519800635"
-    },
-    {
-      "corp_name": "티씨케이",
-      "id": "00245472__orphan__20260626900949",
-      "purpose": "공장신설을 위한 부지확보",
-      "invest_amount_mn": 25691,
-      "ratio_to_revenue_pct": 8.5,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260626900949"
-    }
-  ],
   "2025-09": [
     {
       "corp_name": "티에스아이",
@@ -1095,6 +1053,72 @@
       "invest_amount_mn": 109000,
       "ratio_to_revenue_pct": 7.6,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260226800083"
+    }
+  ],
+  "2026-10": [
+    {
+      "corp_name": "포스코퓨처엠",
+      "id": "00155276__orphan__20251001800670",
+      "purpose": "美 General Motors 社와의 합작투자를 통해 전기자동차(EV) 배터리용 High-Ni, NCMA N8x 양극재 제품 북미시장 진출을 위한 시설 투자",
+      "invest_amount_mn": 351197,
+      "ratio_to_revenue_pct": 9.5,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251001800670"
+    },
+    {
+      "corp_name": "한중엔시에스",
+      "id": "00474588__20251110900552",
+      "purpose": "신규 ESS 부품 생산",
+      "invest_amount_mn": 19000,
+      "ratio_to_revenue_pct": 10.7,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251110900552"
+    },
+    {
+      "corp_name": "제이오",
+      "id": "00411808__orphan__20251128901225",
+      "purpose": "탄소나노튜브 생산시설 증설을 통한 생산능력 확대로 미래 성장동력 확보",
+      "invest_amount_mn": 70000,
+      "ratio_to_revenue_pct": 126.9,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901348"
+    },
+    {
+      "corp_name": "농심홀딩스",
+      "id": "00459871__orphan__20260430801036",
+      "purpose": "수출 수요 확대에 따른 생산 공급 경쟁력 강화",
+      "invest_amount_mn": 2000,
+      "ratio_to_revenue_pct": 0.2,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430801036"
+    },
+    {
+      "corp_name": "농심",
+      "id": "00108241__orphan__20260430800967",
+      "purpose": "수출 수요 확대에 따른 생산 공급 경쟁력 강화",
+      "invest_amount_mn": 2000,
+      "ratio_to_revenue_pct": 0.1,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800967"
+    },
+    {
+      "corp_name": "코스맥스비티아이",
+      "id": "00219574__20260519800655",
+      "purpose": "생산능력 확충",
+      "invest_amount_mn": 60500,
+      "ratio_to_revenue_pct": 9.4,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260519800655"
+    },
+    {
+      "corp_name": "코스맥스",
+      "id": "01009789__20260519800635",
+      "purpose": "생산능력 확충",
+      "invest_amount_mn": 60500,
+      "ratio_to_revenue_pct": 2.5,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260519800635"
+    },
+    {
+      "corp_name": "이비테크",
+      "id": "01116344__orphan__20260609600485",
+      "purpose": "추후 증설 필요에 따른 사전 부지 확보",
+      "invest_amount_mn": 4591,
+      "ratio_to_revenue_pct": null,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260930601192"
     }
   ],
   "2032-12": [
@@ -1301,6 +1325,14 @@
       "invest_amount_mn": 58012,
       "ratio_to_revenue_pct": 5.6,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251229900718"
+    },
+    {
+      "corp_name": "CMG제약",
+      "id": "00380429__orphan__20251229900759",
+      "purpose": "글로벌 세포유전자 치료제 CDMO 생산시설 및 바이오뱅크 구축",
+      "invest_amount_mn": 46410,
+      "ratio_to_revenue_pct": 46.8,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251229900759"
     },
     {
       "corp_name": "도우인시스",
@@ -1775,10 +1807,10 @@
     {
       "corp_name": "에이치엘지노믹스",
       "id": "00624244__20260812900494",
-      "purpose": "생산능력 확대를 위한 2공장 신축 및 설비투자",
+      "purpose": "등 핵심 투자 내역은 변동 없습니다. 신규 시설투자 등",
       "invest_amount_mn": 54849,
       "ratio_to_revenue_pct": null,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260812900494"
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261030901399"
     },
     {
       "corp_name": "유진테크",
