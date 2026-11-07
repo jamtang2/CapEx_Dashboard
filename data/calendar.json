@@ -635,6 +635,14 @@
       "invest_amount_mn": 17500,
       "ratio_to_revenue_pct": 12.3,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261028900379"
+    },
+    {
+      "corp_name": "에이치브이엠",
+      "id": "01011368__orphan__20261102900716",
+      "purpose": "우주항공 및 에너지용 첨단금속 용해 설비 도입",
+      "invest_amount_mn": 12759,
+      "ratio_to_revenue_pct": 19.2,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261102900716"
     }
   ],
   "2027-01": [
@@ -661,6 +669,22 @@
       "invest_amount_mn": 13617,
       "ratio_to_revenue_pct": 28.2,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260511900211"
+    },
+    {
+      "corp_name": "코스맥스비티아이",
+      "id": "00219574__20260519800655",
+      "purpose": "생산능력 확충",
+      "invest_amount_mn": 60500,
+      "ratio_to_revenue_pct": 9.4,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261102800575"
+    },
+    {
+      "corp_name": "코스맥스",
+      "id": "01009789__20260519800635",
+      "purpose": "생산능력 확충",
+      "invest_amount_mn": 60500,
+      "ratio_to_revenue_pct": 2.5,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261102800544"
     },
     {
       "corp_name": "APS이노베이션",
@@ -757,6 +781,14 @@
       "invest_amount_mn": 24867,
       "ratio_to_revenue_pct": 128.7,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261001900271"
+    },
+    {
+      "corp_name": "테크윙",
+      "id": "00535676__20261103900251",
+      "purpose": "- 생산능력 확대 및 중장기 사업 성장에 대응하기 위한 생산시설 확충 - 신규 사업 및 고객 수요 증가에 대응한 생산 기반 확보",
+      "invest_amount_mn": 52636,
+      "ratio_to_revenue_pct": 33.1,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261103900251"
     }
   ],
   "2026-11": [
@@ -1097,22 +1129,6 @@
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260430800967"
     },
     {
-      "corp_name": "코스맥스비티아이",
-      "id": "00219574__20260519800655",
-      "purpose": "생산능력 확충",
-      "invest_amount_mn": 60500,
-      "ratio_to_revenue_pct": 9.4,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260519800655"
-    },
-    {
-      "corp_name": "코스맥스",
-      "id": "01009789__20260519800635",
-      "purpose": "생산능력 확충",
-      "invest_amount_mn": 60500,
-      "ratio_to_revenue_pct": 2.5,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260519800635"
-    },
-    {
       "corp_name": "이비테크",
       "id": "01116344__orphan__20260609600485",
       "purpose": "추후 증설 필요에 따른 사전 부지 확보",
@@ -1261,14 +1277,6 @@
       "invest_amount_mn": 41728,
       "ratio_to_revenue_pct": 23.7,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251226900325"
-    },
-    {
-      "corp_name": "에이펙스인텍",
-      "id": "00832700__orphan__20260202601274",
-      "purpose": "신규사업 및 기존사업 증설을 위한 공장 신축",
-      "invest_amount_mn": 6743,
-      "ratio_to_revenue_pct": null,
-      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260202601274"
     }
   ],
   "2025-11": [
