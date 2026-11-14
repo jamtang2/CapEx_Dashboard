@@ -879,6 +879,14 @@
       "invest_amount_mn": 68000,
       "ratio_to_revenue_pct": 10.4,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260918800537"
+    },
+    {
+      "corp_name": "리노공업",
+      "id": "00369657__orphan__20261110900420",
+      "purpose": "제품 생산능력(CAPACITY) 증대 및 R D역량 확대",
+      "invest_amount_mn": 97182,
+      "ratio_to_revenue_pct": 26.1,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261110900420"
     }
   ],
   "2026-08": [
@@ -1277,6 +1285,14 @@
       "invest_amount_mn": 41728,
       "ratio_to_revenue_pct": 23.7,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20251226900325"
+    },
+    {
+      "corp_name": "에이펙스인텍",
+      "id": "00832700__orphan__20260202601274",
+      "purpose": "신규사업 및 기존사업 증설을 위한 공장 신축",
+      "invest_amount_mn": 6743,
+      "ratio_to_revenue_pct": null,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260202601274"
     }
   ],
   "2025-11": [
@@ -1417,6 +1433,14 @@
       "invest_amount_mn": 41572,
       "ratio_to_revenue_pct": 62.5,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260915900443"
+    },
+    {
+      "corp_name": "쎄트렉아이",
+      "id": "00449254__20261113901075",
+      "purpose": "위성 반복생산 역량 강화",
+      "invest_amount_mn": 40300,
+      "ratio_to_revenue_pct": 19.5,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261113901075"
     }
   ],
   "2028-09": [
@@ -1793,6 +1817,14 @@
       "invest_amount_mn": 101360,
       "ratio_to_revenue_pct": 6.5,
       "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20260630801610"
+    },
+    {
+      "corp_name": "제닉스로보틱스",
+      "id": "01293485__20261111900530",
+      "purpose": "생산능력 확대 및 생산시설 확충을 통한 사업 경쟁력 강화",
+      "invest_amount_mn": 5080,
+      "ratio_to_revenue_pct": 22.4,
+      "dart_url": "https://dart.fss.or.kr/dsaf001/main.do?rcpNo=20261111900530"
     }
   ],
   "2028-01": [
